@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Speaker Amp Lib:ESP32-C6-DevKit-N8"
 			(at 0 12.7 0)
 			(effects
 				(font
