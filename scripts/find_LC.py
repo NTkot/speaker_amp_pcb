@@ -2,8 +2,8 @@ import math
 
 
 if __name__ == '__main__':
-    f_0 = 40e+3
-    R_BTL = 4
+    f_0 = 50e+3
+    R_BTL = 8
 
     R_L = R_BTL / 2
     L = math.sqrt(2) * R_L / (2 * math.pi * f_0)
