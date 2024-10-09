@@ -2662,6 +2662,12 @@
 		)
 	)
 	(junction
+		(at 330.2 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a0dd228-2abe-47d1-892b-5d26da4a7943")
+	)
+	(junction
 		(at 78.74 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2674,10 +2680,22 @@
 		(uuid "25bffae1-3b06-4549-a072-8b874f463187")
 	)
 	(junction
+		(at 330.2 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "272383e3-678c-4565-b482-f362c6eecd19")
+	)
+	(junction
 		(at 270.51 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38c7633e-ab5f-4ede-a1c2-fa7c8f8942e5")
+	)
+	(junction
+		(at 339.09 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40827531-39cb-4087-9948-6b3e2ad51568")
 	)
 	(junction
 		(at 66.04 62.23)
@@ -2716,6 +2734,12 @@
 		(uuid "52f9fc0a-9498-4b8f-bdcb-c72155323c6c")
 	)
 	(junction
+		(at 330.2 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59382d21-cad6-40fe-a98c-e8bf28a69c46")
+	)
+	(junction
 		(at 270.51 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2746,6 +2770,12 @@
 		(uuid "7a7fbb92-02af-4998-98ca-70b8d8483c75")
 	)
 	(junction
+		(at 342.9 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88cab861-9486-4702-845b-a3fc74116684")
+	)
+	(junction
 		(at 199.39 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2770,6 +2800,12 @@
 		(uuid "9d6176fb-5b1e-48cf-b60a-61fb3eaadd04")
 	)
 	(junction
+		(at 339.09 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8f89fe5-0bba-4c7d-b896-0390428732fb")
+	)
+	(junction
 		(at 194.31 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2782,6 +2818,12 @@
 		(uuid "ba5c17d4-bb7f-4b52-a34f-84c6a9c0264a")
 	)
 	(junction
+		(at 330.2 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb078046-9eb4-47c2-b7c9-56303d8af4a2")
+	)
+	(junction
 		(at 198.12 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2792,6 +2834,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc63a19c-8589-4d4c-ac5b-148d3697a350")
+	)
+	(junction
+		(at 339.09 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdb415a7-5601-4e40-b942-b156796718e5")
 	)
 	(junction
 		(at 270.51 137.16)
@@ -2810,6 +2858,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7cf544b-69d7-41ca-86e4-9ad7e9a9869e")
+	)
+	(junction
+		(at 342.9 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d866c8aa-e651-4b04-893f-00a605eb38c5")
 	)
 	(junction
 		(at 185.42 38.1)
@@ -2881,13 +2935,23 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 90.17) (xy 332.74 90.17)
+			(xy 326.39 91.44) (xy 330.2 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "090bebe0-95bf-4bf2-ae91-750bccffb808")
+	)
+	(wire
+		(pts
+			(xy 339.09 71.12) (xy 339.09 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a6a3559-48d1-4061-96c5-97f14eba83aa")
 	)
 	(wire
 		(pts
@@ -2928,6 +2992,16 @@
 			(type default)
 		)
 		(uuid "109c157c-1627-401f-b7e2-76243c407879")
+	)
+	(wire
+		(pts
+			(xy 342.9 105.41) (xy 342.9 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1354e742-c65a-4a84-a32f-b65b55f5d96d")
 	)
 	(wire
 		(pts
@@ -2981,13 +3055,23 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 194.31) (xy 204.47 124.46)
+			(xy 201.93 194.31) (xy 201.93 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1984a4bf-deab-4725-845c-eb8560776ad0")
+	)
+	(wire
+		(pts
+			(xy 342.9 57.15) (xy 342.9 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a611321-d6f6-4be1-95e6-8ab38ee02f01")
 	)
 	(wire
 		(pts
@@ -3001,7 +3085,17 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 78.74) (xy 317.5 72.39)
+			(xy 330.2 58.42) (xy 342.9 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d3490dc-534b-4c2c-b705-302d0ea7081a")
+	)
+	(wire
+		(pts
+			(xy 317.5 78.74) (xy 317.5 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3041,6 +3135,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 90.17) (xy 339.09 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216719d2-caf9-47f2-bd22-3d595818cc69")
+	)
+	(wire
+		(pts
 			(xy 66.04 77.47) (xy 78.74 77.47)
 		)
 		(stroke
@@ -3061,13 +3165,23 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 76.2) (xy 314.96 52.07)
+			(xy 314.96 76.2) (xy 314.96 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "27758df6-8cd5-427d-bc89-e917eae5c9c0")
+	)
+	(wire
+		(pts
+			(xy 330.2 104.14) (xy 330.2 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "289f6797-5610-4a9c-a33e-9ec187ea7e48")
 	)
 	(wire
 		(pts
@@ -3111,7 +3225,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 110.49) (xy 332.74 110.49)
+			(xy 326.39 104.14) (xy 330.2 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3191,13 +3305,13 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 110.49) (xy 332.74 104.14)
+			(xy 330.2 71.12) (xy 339.09 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43b65757-5003-4d3a-809c-a4506f8fb3cb")
+		(uuid "4569e6c5-2f81-425d-9e13-a7992e9d0457")
 	)
 	(wire
 		(pts
@@ -3281,7 +3395,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 110.49) (xy 318.77 110.49)
+			(xy 314.96 104.14) (xy 318.77 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3311,7 +3425,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 72.39) (xy 334.01 72.39)
+			(xy 326.39 71.12) (xy 330.2 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3341,7 +3455,17 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 194.31) (xy 204.47 194.31)
+			(xy 339.09 81.28) (xy 345.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5758a0ec-8a52-4f83-abfb-d8bbd35d6fa7")
+	)
+	(wire
+		(pts
+			(xy 110.49 194.31) (xy 201.93 194.31)
 		)
 		(stroke
 			(width 0)
@@ -3361,7 +3485,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 72.39) (xy 318.77 72.39)
+			(xy 317.5 71.12) (xy 318.77 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3411,13 +3535,23 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 189.23) (xy 200.66 121.92)
+			(xy 199.39 189.23) (xy 199.39 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6173c637-06a4-480e-8f2d-014ca377ef83")
+	)
+	(wire
+		(pts
+			(xy 330.2 93.98) (xy 330.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6278539f-723b-4733-b103-dd1598750ec8")
 	)
 	(wire
 		(pts
@@ -3481,6 +3615,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 71.12) (xy 361.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e5d83f-30ca-42fa-a8b7-c24a3c68ffe0")
+	)
+	(wire
+		(pts
 			(xy 185.42 38.1) (xy 185.42 39.37)
 		)
 		(stroke
@@ -3491,7 +3635,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 121.92) (xy 215.9 121.92)
+			(xy 199.39 121.92) (xy 215.9 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3511,7 +3655,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 72.39) (xy 334.01 66.04)
+			(xy 330.2 71.12) (xy 330.2 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3538,6 +3682,26 @@
 			(type default)
 		)
 		(uuid "7c63d642-c124-44fa-b12b-44d3b258711c")
+	)
+	(wire
+		(pts
+			(xy 330.2 104.14) (xy 342.9 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd1cf3a-8cc7-41a7-a753-4ba36543502d")
+	)
+	(wire
+		(pts
+			(xy 342.9 48.26) (xy 342.9 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d6ebcb6-3fd5-4f13-83ba-2cba9a7a975b")
 	)
 	(wire
 		(pts
@@ -3631,6 +3795,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 82.55) (xy 339.09 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f1ec69c-d305-47dd-924a-58b0b8c12aa0")
+	)
+	(wire
+		(pts
 			(xy 92.71 77.47) (xy 92.71 80.01)
 		)
 		(stroke
@@ -3651,7 +3825,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 90.17) (xy 317.5 90.17)
+			(xy 318.77 91.44) (xy 317.5 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3701,6 +3875,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 91.44) (xy 361.95 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a6e69e4-8681-422c-8112-f76eba635ce6")
+	)
+	(wire
+		(pts
 			(xy 184.15 99.06) (xy 194.31 99.06)
 		)
 		(stroke
@@ -3711,7 +3895,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 90.17) (xy 317.5 83.82)
+			(xy 317.5 91.44) (xy 317.5 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3831,7 +4015,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 124.46) (xy 215.9 124.46)
+			(xy 201.93 124.46) (xy 215.9 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3871,7 +4055,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 52.07) (xy 318.77 52.07)
+			(xy 314.96 58.42) (xy 318.77 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3888,6 +4072,16 @@
 			(type default)
 		)
 		(uuid "b8f9e1ab-4078-4c64-8ebc-6c5077363b15")
+	)
+	(wire
+		(pts
+			(xy 342.9 58.42) (xy 361.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc1bd8b8-f984-40e4-a4b5-d44ccc2ff132")
 	)
 	(wire
 		(pts
@@ -3908,6 +4102,16 @@
 			(type default)
 		)
 		(uuid "bfc9088e-70b2-4f48-a127-f7f5360420b9")
+	)
+	(wire
+		(pts
+			(xy 330.2 60.96) (xy 330.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfefe614-cd69-4e38-88f7-f79ef5d6fb45")
 	)
 	(wire
 		(pts
@@ -4001,16 +4205,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 52.07) (xy 334.01 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc323d3e-e483-443a-b5aa-adf07352d0d2")
-	)
-	(wire
-		(pts
 			(xy 308.61 99.06) (xy 308.61 86.36)
 		)
 		(stroke
@@ -4051,6 +4245,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 91.44) (xy 339.09 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b495fc-770b-42ed-8a2a-4df0f4e1a72d")
+	)
+	(wire
+		(pts
 			(xy 287.02 76.2) (xy 314.96 76.2)
 		)
 		(stroke
@@ -4081,6 +4285,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 80.01) (xy 339.09 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc5e4d59-f12b-42a6-aa10-aef3be881050")
+	)
+	(wire
+		(pts
 			(xy 198.12 38.1) (xy 198.12 36.83)
 		)
 		(stroke
@@ -4098,6 +4312,16 @@
 			(type default)
 		)
 		(uuid "e143c2b2-1653-42c2-8d44-d59d09936034")
+	)
+	(wire
+		(pts
+			(xy 330.2 58.42) (xy 326.39 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1c78f7e-db2e-490f-aac9-1d39d0e816ab")
 	)
 	(wire
 		(pts
@@ -4151,7 +4375,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 86.36) (xy 314.96 110.49)
+			(xy 314.96 86.36) (xy 314.96 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4191,13 +4415,13 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 52.07) (xy 334.01 52.07)
+			(xy 342.9 104.14) (xy 361.95 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f395e6a5-3757-4eb0-8ee5-d66e1222c3b8")
+		(uuid "f72375bd-86da-4670-946b-f1274b63666c")
 	)
 	(wire
 		(pts
@@ -4208,16 +4432,6 @@
 			(type default)
 		)
 		(uuid "fa32ee49-6303-4afb-8857-cc3b042265d7")
-	)
-	(wire
-		(pts
-			(xy 332.74 90.17) (xy 332.74 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb934896-67b3-41d4-814c-171b9f49e75e")
 	)
 	(wire
 		(pts
@@ -4241,7 +4455,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 189.23) (xy 200.66 189.23)
+			(xy 110.49 189.23) (xy 199.39 189.23)
 		)
 		(stroke
 			(width 0)
@@ -5316,7 +5530,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 322.58 72.39 270)
+		(at 322.58 71.12 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5324,7 +5538,7 @@
 		(dnp no)
 		(uuid "2660ca18-af40-420c-a920-6990b5c4c7f3")
 		(property "Reference" "L2"
-			(at 322.58 74.93 90)
+			(at 322.58 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5332,7 +5546,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 322.58 77.47 90)
+			(at 322.58 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5340,7 +5554,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-LS_Handsoldering"
-			(at 322.58 72.39 0)
+			(at 322.58 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5349,7 +5563,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7447707220.pdf"
-			(at 322.58 72.39 0)
+			(at 322.58 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5358,7 +5572,7 @@
 			)
 		)
 		(property "Description" "Wurth Elektronik - 7447707220"
-			(at 322.58 72.39 0)
+			(at 322.58 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,7 +5581,7 @@
 			)
 		)
 		(property "MouserLink" "https://gr.mouser.com/ProductDetail/Wurth-Elektronik/7447707220?qs=DPoM0jnrROU%252BcE0mb2gCYA%3D%3D"
-			(at 322.58 72.39 90)
+			(at 322.58 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,6 +5683,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 339.09 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "305f1e0a-adbd-4f18-8f97-594ea4f43476")
+		(property "Reference" "C20"
+			(at 342.9 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.047u"
+			(at 342.9 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4"
+			(at 340.0552 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_F3034_R76-3317004.pdf"
+			(at 339.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "YAGEO - R76MF24705050J"
+			(at 339.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/R76MF24705050J?qs=pUKx8fyJudD0iBKf0S6rmA%3D%3D"
+			(at 339.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05dd05e2-e3b7-4413-9654-fe74f6429976")
+		)
+		(pin "2"
+			(uuid "0ba835a6-0633-4bfc-b0f2-fbd96b79e611")
+		)
+		(instances
+			(project ""
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 133.35 142.24 180)
 		(unit 1)
@@ -5548,7 +5841,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 334.01 62.23 0)
+		(at 330.2 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5557,7 +5850,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d24945a-fc6e-4b62-a6d8-05209c73d89b")
 		(property "Reference" "C18"
-			(at 337.82 60.9599 0)
+			(at 334.01 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5565,8 +5858,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 337.82 63.4999 0)
+		(property "Value" "0.33u"
+			(at 334.01 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,7 +5868,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3"
-			(at 334.9752 66.04 0)
+			(at 331.1652 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +5877,7 @@
 			)
 		)
 		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_F3121_R75H-3316645.pdf"
-			(at 334.01 62.23 0)
+			(at 330.2 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5593,7 +5886,7 @@
 			)
 		)
 		(property "Description" "YAGEO - R75MI333050H4J"
-			(at 334.01 62.23 0)
+			(at 330.2 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5602,7 +5895,7 @@
 			)
 		)
 		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/R75MI333050H4J?qs=vmHwEFxEFR%252BRyzotvjWhaw%3D%3D"
-			(at 334.01 62.23 0)
+			(at 330.2 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,7 +5996,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 322.58 110.49 270)
+		(at 322.58 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5711,7 +6004,7 @@
 		(dnp no)
 		(uuid "5a33999a-ccb6-4704-95eb-5f614055c545")
 		(property "Reference" "L4"
-			(at 322.58 113.03 90)
+			(at 322.58 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5719,7 +6012,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 322.58 115.57 90)
+			(at 322.58 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5727,7 +6020,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-LS_Handsoldering"
-			(at 322.58 110.49 0)
+			(at 322.58 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +6029,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7447707220.pdf"
-			(at 322.58 110.49 0)
+			(at 322.58 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,7 +6038,7 @@
 			)
 		)
 		(property "Description" "Wurth Elektronik - 7447707220"
-			(at 322.58 110.49 0)
+			(at 322.58 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,7 +6047,7 @@
 			)
 		)
 		(property "MouserLink" "https://gr.mouser.com/ProductDetail/Wurth-Elektronik/7447707220?qs=DPoM0jnrROU%252BcE0mb2gCYA%3D%3D"
-			(at 322.58 110.49 90)
+			(at 322.58 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5915,6 +6208,85 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 330.2 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6487e4ff-9447-4e0e-9cda-cb7e1219c77a")
+		(property "Reference" "C19"
+			(at 334.01 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.33u"
+			(at 334.01 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3"
+			(at 331.1652 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_F3121_R75H-3316645.pdf"
+			(at 330.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "YAGEO - R75MI333050H4J"
+			(at 330.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/R75MI333050H4J?qs=vmHwEFxEFR%252BRyzotvjWhaw%3D%3D"
+			(at 330.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81b60ee4-2a98-44de-85ea-2fcf3aee650d")
+		)
+		(pin "1"
+			(uuid "593000d4-9711-40f6-b20e-281f6926e867")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -6460,6 +6832,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 342.9 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "933ab6b7-8052-40c4-b135-f44360202835")
+		(property "Reference" "C23"
+			(at 346.71 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.047u"
+			(at 346.71 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4"
+			(at 343.8652 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_F3034_R76-3317004.pdf"
+			(at 342.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "YAGEO - R76MF24705050J"
+			(at 342.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/R76MF24705050J?qs=pUKx8fyJudD0iBKf0S6rmA%3D%3D"
+			(at 342.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc7b8e66-de70-48a4-bcab-72dc71ec3457")
+		)
+		(pin "2"
+			(uuid "f53f6c5e-f59e-447c-bc58-1f9715fa4890")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 110.49 62.23 270)
 		(unit 1)
@@ -6521,6 +6972,151 @@
 			(project ""
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 339.09 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c507b1b-90c7-4fae-ac1b-269ddadd01b3")
+		(property "Reference" "C21"
+			(at 342.9 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.047u"
+			(at 342.9 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4"
+			(at 340.0552 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_F3034_R76-3317004.pdf"
+			(at 339.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "YAGEO - R76MF24705050J"
+			(at 339.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/R76MF24705050J?qs=pUKx8fyJudD0iBKf0S6rmA%3D%3D"
+			(at 339.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16840380-e083-4375-9547-f0ddd0df8f00")
+		)
+		(pin "2"
+			(uuid "de9ea558-b0ab-43c7-bb6a-ddfa37a2b4a4")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 342.9 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e1e47d8-a734-48d7-8eb4-47d59356c600")
+		(property "Reference" "#PWR016"
+			(at 342.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 342.9 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 342.9 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 342.9 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "766b28af-4f5e-40f7-83b5-22652badd802")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6663,85 +7259,6 @@
 			(project ""
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "L5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 332.74 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "acca813a-af3a-4c53-9117-5b04edd389af")
-		(property "Reference" "C19"
-			(at 336.55 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 336.55 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3"
-			(at 333.7052 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_F3121_R75H-3316645.pdf"
-			(at 332.74 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "YAGEO - R75MI333050H4J"
-			(at 332.74 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/R75MI333050H4J?qs=vmHwEFxEFR%252BRyzotvjWhaw%3D%3D"
-			(at 332.74 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b591decf-a857-4e95-948e-666fcd05e412")
-		)
-		(pin "1"
-			(uuid "777b7433-054f-4a33-b0a3-4c8035475340")
-		)
-		(instances
-			(project "speaker_amp2"
-				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
-					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -7238,7 +7755,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 322.58 52.07 90)
+		(at 322.58 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7246,7 +7763,7 @@
 		(dnp no)
 		(uuid "bd72c436-de0c-4c86-b04a-9dac47bbceff")
 		(property "Reference" "L1"
-			(at 322.58 49.53 90)
+			(at 322.58 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7254,7 +7771,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 322.58 46.99 90)
+			(at 322.58 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7262,7 +7779,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-LS_Handsoldering"
-			(at 322.58 52.07 0)
+			(at 322.58 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,7 +7788,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7447707220.pdf"
-			(at 322.58 52.07 0)
+			(at 322.58 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7280,7 +7797,7 @@
 			)
 		)
 		(property "Description" "Wurth Elektronik - 7447707220"
-			(at 322.58 52.07 0)
+			(at 322.58 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7289,7 +7806,7 @@
 			)
 		)
 		(property "MouserLink" "https://gr.mouser.com/ProductDetail/Wurth-Elektronik/7447707220?qs=DPoM0jnrROU%252BcE0mb2gCYA%3D%3D"
-			(at 322.58 52.07 90)
+			(at 322.58 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7630,8 +8147,220 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 342.9 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c69a5898-167d-4cc8-81cf-9a0d857992d5")
+		(property "Reference" "C22"
+			(at 346.71 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.047u"
+			(at 346.71 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4"
+			(at 343.8652 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_F3034_R76-3317004.pdf"
+			(at 342.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "YAGEO - R76MF24705050J"
+			(at 342.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/R76MF24705050J?qs=pUKx8fyJudD0iBKf0S6rmA%3D%3D"
+			(at 342.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6745add0-d71e-4f18-b0df-5bcd700ab532")
+		)
+		(pin "2"
+			(uuid "4aa7a45d-11ae-470e-9ff0-c3e49ca891a2")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 342.9 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb59694f-bc79-4a75-a9de-5acd95473d9d")
+		(property "Reference" "#PWR017"
+			(at 342.9 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 342.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 342.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 342.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85787e03-8915-4ac5-afda-3940adddb61a")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 345.44 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2e07b0c-0c95-44ea-8af4-537e3b9d6de1")
+		(property "Reference" "#PWR018"
+			(at 351.79 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 349.25 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 345.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4f83b4d-060c-4527-b744-508ecfc6db8e")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
-		(at 322.58 90.17 90)
+		(at 322.58 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7639,7 +8368,7 @@
 		(dnp no)
 		(uuid "d52f80b1-81f4-42d7-b499-0b7c264acf93")
 		(property "Reference" "L3"
-			(at 322.58 87.63 90)
+			(at 322.58 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7647,7 +8376,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 322.58 85.09 90)
+			(at 322.58 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7655,7 +8384,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-LS_Handsoldering"
-			(at 322.58 90.17 0)
+			(at 322.58 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7664,7 +8393,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7447707220.pdf"
-			(at 322.58 90.17 0)
+			(at 322.58 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7673,7 +8402,7 @@
 			)
 		)
 		(property "Description" "Wurth Elektronik - 7447707220"
-			(at 322.58 90.17 0)
+			(at 322.58 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7682,7 +8411,7 @@
 			)
 		)
 		(property "MouserLink" "https://gr.mouser.com/ProductDetail/Wurth-Elektronik/7447707220?qs=DPoM0jnrROU%252BcE0mb2gCYA%3D%3D"
-			(at 322.58 90.17 90)
+			(at 322.58 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)

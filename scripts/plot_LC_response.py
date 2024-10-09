@@ -7,7 +7,7 @@ if __name__ == '__main__':
     R_BTL = 8
     L = 22e-6
     C_BTL = 0.33e-6
-    C_g = 0.05e-6
+    C_g = 0.047e-6
 
     R_L = R_BTL / 2
 
