@@ -161,7 +161,7 @@
 		(uuid "fbb90387-4a8e-4124-bfed-5b990c5e8767")
 	)
 	(fp_text user "Designator7"
-		(at -4.2164 -6.3754 0)
+		(at 0 -6.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b013b04a-6a57-4f1c-b6cb-b4e9f0870e94")
@@ -417,5 +417,16 @@
 		(size 2.899999 4.700001)
 		(layers "F.Cu" "F.Mask")
 		(uuid "960421d5-f878-4184-b0bb-6d34a6c73e67")
+	)
+	(model "${KIPRJMOD}/libs/TAS5822MDCPR/DCP0038A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
