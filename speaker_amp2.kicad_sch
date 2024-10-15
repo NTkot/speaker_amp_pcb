@@ -581,7 +581,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "MCU"
+			(property "Reference" "MCU1"
 				(at 0 53.34 0)
 				(effects
 					(font
@@ -590,7 +590,7 @@
 				)
 			)
 			(property "Value" "ESP32-DevKitC-32E"
-				(at -0.508 50.546 0)
+				(at 0 50.8 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -606,7 +606,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp32-devkitc/user_guide.html"
 				(at 0.0696 8.5095 0)
 				(effects
 					(font
@@ -1434,7 +1434,7 @@
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -3523,6 +3523,12 @@
 		(uuid "272383e3-678c-4565-b482-f362c6eecd19")
 	)
 	(junction
+		(at 270.51 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c323590-fb9f-424a-b22d-5b83f05bbebb")
+	)
+	(junction
 		(at 267.97 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3619,6 +3625,12 @@
 		(uuid "6d332f5c-c444-4132-bbec-fc635639bb61")
 	)
 	(junction
+		(at 270.51 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6eeecd36-0ab2-4251-9c6f-2a10aa8dcae3")
+	)
+	(junction
 		(at 267.97 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3629,6 +3641,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70026c92-b9fa-4d9f-a76c-105ad9c23326")
+	)
+	(junction
+		(at 289.56 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74449290-952d-41e4-848f-d0ae4b686ccd")
 	)
 	(junction
 		(at 267.97 127)
@@ -3665,6 +3683,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f567423-871e-4854-8417-9daf13a6f357")
+	)
+	(junction
+		(at 289.56 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "803adf0e-acdc-40b6-a0c3-271628898d01")
 	)
 	(junction
 		(at 184.15 246.38)
@@ -3739,6 +3763,12 @@
 		(uuid "a8f89fe5-0bba-4c7d-b896-0390428732fb")
 	)
 	(junction
+		(at 304.8 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa951ebd-1151-41e3-920b-e974f67c0a00")
+	)
+	(junction
 		(at 237.49 246.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3779,6 +3809,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0374363-de8b-4ec7-8a04-b6d383326ae9")
+	)
+	(junction
+		(at 304.8 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c53c2541-3878-4229-8237-9c69870826ee")
 	)
 	(junction
 		(at 175.26 157.48)
@@ -3874,6 +3910,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 204.47) (xy 304.8 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03e6ced4-cd8f-4f94-b54b-40c861a5be43")
+	)
+	(wire
+		(pts
 			(xy 172.72 179.07) (xy 172.72 152.4)
 		)
 		(stroke
@@ -3881,6 +3927,16 @@
 			(type default)
 		)
 		(uuid "03e8e46f-b8bb-43f9-bce6-ec4c48e827d1")
+	)
+	(wire
+		(pts
+			(xy 264.16 214.63) (xy 270.51 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f49966-e8e5-4dc0-8bd0-34209e08f938")
 	)
 	(wire
 		(pts
@@ -3901,6 +3957,16 @@
 			(type default)
 		)
 		(uuid "07505cf6-cb34-4864-b3b7-7cf18c377566")
+	)
+	(wire
+		(pts
+			(xy 304.8 201.93) (xy 304.8 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07528adb-bf69-48aa-87f5-18b9c0bca41b")
 	)
 	(wire
 		(pts
@@ -3994,6 +4060,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 222.25) (xy 317.5 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff0210e-cad6-4129-a061-d6783748c4d9")
+	)
+	(wire
+		(pts
 			(xy 96.52 49.53) (xy 107.95 49.53)
 		)
 		(stroke
@@ -4051,6 +4127,16 @@
 			(type default)
 		)
 		(uuid "1984a4bf-deab-4725-845c-eb8560776ad0")
+	)
+	(wire
+		(pts
+			(xy 264.16 222.25) (xy 270.51 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a0cae7a-356c-4020-9a9c-2d5aecedf558")
 	)
 	(wire
 		(pts
@@ -4204,6 +4290,26 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 207.01) (xy 289.56 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a298ffe-04c3-4dcd-aade-9a33c5b34fc1")
+	)
+	(wire
+		(pts
+			(xy 289.56 209.55) (xy 289.56 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d785a86-1552-407f-a49a-77725f1aa9c1")
+	)
+	(wire
+		(pts
 			(xy 267.97 111.76) (xy 267.97 114.3)
 		)
 		(stroke
@@ -4326,6 +4432,36 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 224.79) (xy 270.51 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "375a24ae-b9e3-47f0-a916-5009c15a79ed")
+	)
+	(wire
+		(pts
+			(xy 264.16 224.79) (xy 270.51 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3990a451-0f3a-490b-ba61-f7ef0a8a93b6")
+	)
+	(wire
+		(pts
+			(xy 292.1 201.93) (xy 304.8 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a1a716e-ef35-4a52-94a3-f3b9dd269ddc")
+	)
+	(wire
+		(pts
 			(xy 205.74 78.74) (xy 213.36 78.74)
 		)
 		(stroke
@@ -4353,6 +4489,16 @@
 			(type default)
 		)
 		(uuid "41612548-a897-4aa1-8339-a808fb348a8f")
+	)
+	(wire
+		(pts
+			(xy 264.16 207.01) (xy 266.7 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41bc717f-28a1-4713-b7fe-ed30bd4e1a69")
 	)
 	(wire
 		(pts
@@ -4706,6 +4852,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 204.47) (xy 304.8 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b0c73d5-1e18-4ca3-8763-cf1794e6119b")
+	)
+	(wire
+		(pts
 			(xy 210.82 224.79) (xy 213.36 224.79)
 		)
 		(stroke
@@ -4713,6 +4869,16 @@
 			(type default)
 		)
 		(uuid "6cc300ff-b926-457e-bcde-a8c7e0da9905")
+	)
+	(wire
+		(pts
+			(xy 264.16 204.47) (xy 292.1 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d099a28-520e-4857-b4c4-018c8065a7a5")
 	)
 	(wire
 		(pts
@@ -4733,6 +4899,26 @@
 			(type default)
 		)
 		(uuid "6dbabf61-1dbd-4631-84a3-85879d51b08d")
+	)
+	(wire
+		(pts
+			(xy 304.8 217.17) (xy 317.5 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e2e6b67-44a4-4e78-b546-b07f3306eaad")
+	)
+	(wire
+		(pts
+			(xy 264.16 217.17) (xy 270.51 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fbd203d-2c16-4eee-a26d-d93c1bc5683b")
 	)
 	(wire
 		(pts
@@ -4923,6 +5109,16 @@
 			(type default)
 		)
 		(uuid "7d6ebcb6-3fd5-4f13-83ba-2cba9a7a975b")
+	)
+	(wire
+		(pts
+			(xy 270.51 222.25) (xy 289.56 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e043c98-c065-406a-b049-8f6fad8b4d97")
 	)
 	(wire
 		(pts
@@ -5318,6 +5514,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 207.01) (xy 289.56 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1363ead-e27f-4a8c-9f38-49b4b4afeab4")
+	)
+	(wire
+		(pts
 			(xy 162.56 99.06) (xy 213.36 99.06)
 		)
 		(stroke
@@ -5345,6 +5551,16 @@
 			(type default)
 		)
 		(uuid "a56d45f9-b36c-456e-9eb5-61e53eeea3e6")
+	)
+	(wire
+		(pts
+			(xy 270.51 217.17) (xy 304.8 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5928b8d-a050-46d3-8d46-02fcafd9a1ae")
 	)
 	(wire
 		(pts
@@ -5435,6 +5651,16 @@
 			(type default)
 		)
 		(uuid "afe465f9-b284-4c37-a9b4-2e25096cfd72")
+	)
+	(wire
+		(pts
+			(xy 281.94 209.55) (xy 289.56 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b12060b7-aed1-4a2a-94f9-8aa4439f09b2")
 	)
 	(wire
 		(pts
@@ -5869,6 +6095,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 209.55) (xy 274.32 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1600ca-e615-4df5-b6ac-73bf9132f3b6")
+	)
+	(wire
+		(pts
 			(xy 264.16 173.99) (xy 267.97 173.99)
 		)
 		(stroke
@@ -6019,6 +6255,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 214.63) (xy 270.51 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf7afb1-2903-4844-ab18-3ed95943810a")
+	)
+	(wire
+		(pts
 			(xy 274.32 78.74) (xy 287.02 78.74)
 		)
 		(stroke
@@ -6106,6 +6352,16 @@
 			(type default)
 		)
 		(uuid "f72375bd-86da-4670-946b-f1274b63666c")
+	)
+	(wire
+		(pts
+			(xy 264.16 201.93) (xy 284.48 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f971cff5-a7c4-4ee0-894a-be06b5472cd7")
 	)
 	(wire
 		(pts
@@ -6553,6 +6809,26 @@
 			(href "https://redexpert.we-online.com/redexpert/#/module/7104/selecteditems/7843332000/productdata/=7843332000/re/mouser")
 		)
 		(uuid "1004376c-196c-4a22-81b6-e3f557be1a24")
+	)
+	(text "SpeakerA"
+		(exclude_from_sim no)
+		(at 359.156 49.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "295a63c7-b1b4-416f-b17e-ccc632252d8e")
+	)
+	(text "SpeakerB"
+		(exclude_from_sim no)
+		(at 359.156 83.058 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "810ec890-f9a6-4d56-9bad-1242038c10cc")
 	)
 	(text "ADR_FAULT_N"
 		(exclude_from_sim no)
@@ -7748,6 +8024,83 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 278.13 209.55 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ffb4299-4115-4cd3-827b-d23d1feeb10f")
+		(property "Reference" "C35"
+			(at 278.13 205.486 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.47u"
+			(at 278.13 202.946 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 281.94 210.5152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_C1090_X7R_ESD-3316292.pdf"
+			(at 278.13 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "KEMET - C0805C474J5RECTU"
+			(at 278.13 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/C0805C474J5RECTU?qs=55YtniHzbhAjL00%252BB0sGuQ%3D%3D"
+			(at 278.13 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04862d7c-04d9-4e6b-8553-2cfe2183d5ea")
+		)
+		(pin "1"
+			(uuid "70169505-a12f-4834-855d-15f627f63cd6")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -9481,6 +9834,83 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 288.29 201.93 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b1d4908-af91-4bc2-86bd-38aa104f9114")
+		(property "Reference" "C36"
+			(at 288.29 197.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.47u"
+			(at 288.29 195.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 292.1 202.8952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_C1090_X7R_ESD-3316292.pdf"
+			(at 288.29 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "KEMET - C0805C474J5RECTU"
+			(at 288.29 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/C0805C474J5RECTU?qs=55YtniHzbhAjL00%252BB0sGuQ%3D%3D"
+			(at 288.29 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "83b1a740-2c40-423f-a4d8-b5273694d740")
+		)
+		(pin "1"
+			(uuid "2847cf35-6f80-46c6-a8b2-90699561dc11")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 336.55 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10240,6 +10670,83 @@
 			(project ""
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 295.91 204.47 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5eb6cf5-ea00-448e-ad5e-9e18deaec10b")
+		(property "Reference" "C37"
+			(at 295.91 200.152 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.47u"
+			(at 295.91 197.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 299.72 205.4352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_C1090_X7R_ESD-3316292.pdf"
+			(at 295.91 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "KEMET - C0805C474J5RECTU"
+			(at 295.91 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/C0805C474J5RECTU?qs=55YtniHzbhAjL00%252BB0sGuQ%3D%3D"
+			(at 295.91 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c68c1eef-b800-43a2-91e3-5b86b927fdc3")
+		)
+		(pin "1"
+			(uuid "4502389f-cdad-4de6-b1e5-6d0006126de6")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -12013,6 +12520,83 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 270.51 207.01 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f57384cf-10dd-4dbf-9077-4c647e5b384a")
+		(property "Reference" "C34"
+			(at 270.51 202.946 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.47u"
+			(at 270.51 200.406 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 274.32 207.9752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_C1090_X7R_ESD-3316292.pdf"
+			(at 270.51 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "KEMET - C0805C474J5RECTU"
+			(at 270.51 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/C0805C474J5RECTU?qs=55YtniHzbhAjL00%252BB0sGuQ%3D%3D"
+			(at 270.51 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a03e0085-6283-437e-b799-d641a55e19fb")
+		)
+		(pin "1"
+			(uuid "551a723c-6f10-49ed-8a72-c459b816beff")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "C34")
 					(unit 1)
 				)
 			)
