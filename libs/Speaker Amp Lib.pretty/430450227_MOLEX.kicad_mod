@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "430450227 ")
 	(property "Reference" "REF**"
-		(at 0 -11.43 0)
+		(at 0 -8 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "1859f9ea-5fd6-4d70-a2de-14fd7ba02593")
@@ -264,42 +264,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "341e1d56-cdbe-41f0-8881-721564fa04bd")
-	)
-	(fp_text user "430450227"
-		(at 0 -15.885001 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "afb98bd8-0fce-4e95-a822-c312dac8681f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "PTH_DRILL_SIZE:_1.02_MM,_TOL:_+0.05/-0.05"
-		(at 0 9.515 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "2188a203-938e-4677-96aa-b97ad4d115de")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "NPTH_DRILL_SIZE:_1.02_MM,_TOL:_+0.05/-0.05"
-		(at 0 12.055 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "dded655a-0051-40a2-8ed3-b33715d9af4b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -11.43 0)
