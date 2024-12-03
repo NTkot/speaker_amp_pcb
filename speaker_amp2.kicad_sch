@@ -710,6 +710,288 @@
 				)
 			)
 		)
+		(symbol "Molex_430450227_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J3"
+				(at 12.7 0.0001 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Molex_430450227"
+				(at 12.7 -2.5399 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Speaker Amp Lib:430450227_MOLEX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "430450227"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "430450227"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CON_430450227_MOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Molex_430450227_1_0_1"
+				(rectangle
+					(start 5.08 7.62)
+					(end 11.43 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Molex_430450227_1_1_1"
+				(pin unspecified line
+					(at 0 3.81 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -6.35 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Molex_430450227_1_1_2"
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 12.7 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Speaker Amp Lib:ESP32-DevKitC-32E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3804,6 +4086,18 @@
 		(uuid "4941b355-b1ab-41d9-8815-59a4a6aaa56d")
 	)
 	(junction
+		(at 92.71 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49fa2b3c-edde-4cf9-a53f-90e4e6476b97")
+	)
+	(junction
+		(at 110.49 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ab9aeec-cf4e-4a9c-ada9-3c5cff3715e2")
+	)
+	(junction
 		(at 308.61 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3838,6 +4132,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59fc625f-2774-4158-95cd-e7f7054d7425")
+	)
+	(junction
+		(at 110.49 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6012302e-3532-4281-b3dd-297671de3222")
 	)
 	(junction
 		(at 201.93 209.55)
@@ -3972,6 +4272,12 @@
 		(uuid "97f845cc-97f2-4397-8139-29cee33a6bae")
 	)
 	(junction
+		(at 101.6 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b4d1718-61da-4690-a195-df47190e473a")
+	)
+	(junction
 		(at 242.57 264.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4006,6 +4312,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab65a54c-53d3-45ea-a6a1-093b52f2e3a7")
+	)
+	(junction
+		(at 92.71 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acc802da-b103-4c1b-aa4d-50894f5b5ee9")
 	)
 	(junction
 		(at 196.85 91.44)
@@ -4060,6 +4372,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf1edb48-5b52-4025-b751-9aebc259e8e7")
+	)
+	(junction
+		(at 83.82 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf8742b0-bc6e-4066-b75e-69c552554d08")
+	)
+	(junction
+		(at 101.6 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d26d6eff-5694-4413-846d-b50ade4cf6f9")
 	)
 	(junction
 		(at 330.2 222.25)
@@ -4126,6 +4450,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd29a1e0-1d6b-4f02-a421-deae37536aa4")
+	)
+	(junction
+		(at 119.38 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd84ac42-d775-4abf-be67-48d98d8990c8")
 	)
 	(wire
 		(pts
@@ -4289,6 +4619,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 151.13) (xy 66.04 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c4316f-6a43-4fd0-8e1e-7deca9cffae5")
+	)
+	(wire
+		(pts
 			(xy 147.32 88.9) (xy 147.32 90.17)
 		)
 		(stroke
@@ -4306,6 +4646,16 @@
 			(type default)
 		)
 		(uuid "1354e742-c65a-4a84-a32f-b65b55f5d96d")
+	)
+	(wire
+		(pts
+			(xy 62.23 130.81) (xy 66.04 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c4bb51-a684-4dd9-8dbf-2964d0e0306b")
 	)
 	(wire
 		(pts
@@ -4336,6 +4686,26 @@
 			(type default)
 		)
 		(uuid "15f2a4b9-ebec-480e-82f5-a67cb6ef363e")
+	)
+	(wire
+		(pts
+			(xy 101.6 254) (xy 101.6 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18953ad5-0826-4b59-95c2-423c637ed92f")
+	)
+	(wire
+		(pts
+			(xy 83.82 229.87) (xy 83.82 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19fe86ef-a879-4ac1-803f-b67968f24e99")
 	)
 	(wire
 		(pts
@@ -4376,6 +4746,26 @@
 			(type default)
 		)
 		(uuid "1b750b7b-561d-4e75-8285-85a7a1585d67")
+	)
+	(wire
+		(pts
+			(xy 123.19 233.68) (xy 119.38 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ba882b8-8621-4d43-aea9-4a71539b33ca")
+	)
+	(wire
+		(pts
+			(xy 110.49 254) (xy 101.6 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c23defc-8236-4a63-8de2-e3e454b409f6")
 	)
 	(wire
 		(pts
@@ -4599,6 +4989,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 243.84) (xy 83.82 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fff1791-469c-4bba-aac9-673380a97adb")
+	)
+	(wire
+		(pts
 			(xy 205.74 119.38) (xy 205.74 172.72)
 		)
 		(stroke
@@ -4637,6 +5037,16 @@
 			(type default)
 		)
 		(uuid "33897335-d9dc-4f32-8350-91bb165c7363")
+	)
+	(wire
+		(pts
+			(xy 101.6 238.76) (xy 81.28 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33bd4ccd-cd18-424b-a3fa-1eb93d5819e9")
 	)
 	(wire
 		(pts
@@ -4921,6 +5331,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 146.05) (xy 66.04 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b3b8eb2-58d6-4391-947f-527beebcde3b")
+	)
+	(wire
+		(pts
 			(xy 218.44 201.93) (xy 167.64 201.93)
 		)
 		(stroke
@@ -4948,6 +5368,16 @@
 			(type default)
 		)
 		(uuid "4e021833-8b4a-42bd-a759-452c30e4a1dc")
+	)
+	(wire
+		(pts
+			(xy 92.71 241.3) (xy 81.28 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ee2b527-2e2e-4df6-869a-260d14b8b584")
 	)
 	(wire
 		(pts
@@ -5081,6 +5511,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 245.11) (xy 83.82 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5918c85b-f4f4-42a8-a8ae-2c27dbb0ba12")
+	)
+	(wire
+		(pts
 			(xy 212.09 224.79) (xy 212.09 264.16)
 		)
 		(stroke
@@ -5118,6 +5558,16 @@
 			(type default)
 		)
 		(uuid "5d7d8d3b-98a9-4ece-86d7-9e15577d0bf9")
+	)
+	(wire
+		(pts
+			(xy 101.6 238.76) (xy 101.6 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc5c94d-2d60-48a4-9b97-8d9833c6d2a8")
 	)
 	(wire
 		(pts
@@ -5191,6 +5641,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 252.73) (xy 92.71 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6412f9db-1b9a-4726-9dac-13e15239445f")
+	)
+	(wire
+		(pts
 			(xy 289.56 83.82) (xy 289.56 68.58)
 		)
 		(stroke
@@ -5211,6 +5671,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 236.22) (xy 81.28 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "676fbb13-f6b0-4ddc-a97f-fa83c23578aa")
+	)
+	(wire
+		(pts
 			(xy 35.56 48.26) (xy 38.1 48.26)
 		)
 		(stroke
@@ -5228,6 +5698,16 @@
 			(type default)
 		)
 		(uuid "68d64207-c554-46df-9c53-768acd125020")
+	)
+	(wire
+		(pts
+			(xy 62.23 135.89) (xy 66.04 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a93cc0d-cd53-4a21-82da-f833c46ae246")
 	)
 	(wire
 		(pts
@@ -5261,6 +5741,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 140.97) (xy 66.04 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d34179a-cc8c-43b8-94d0-5339d81e66c0")
+	)
+	(wire
+		(pts
 			(xy 64.77 60.96) (xy 64.77 63.5)
 		)
 		(stroke
@@ -5281,6 +5771,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 233.68) (xy 119.38 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e353ca6-6576-4a71-8e57-634027c7d340")
+	)
+	(wire
+		(pts
 			(xy 269.24 224.79) (xy 275.59 224.79)
 		)
 		(stroke
@@ -5298,6 +5798,16 @@
 			(type default)
 		)
 		(uuid "6fe7e9b8-75b9-4d60-82f6-352f17fba816")
+	)
+	(wire
+		(pts
+			(xy 110.49 236.22) (xy 110.49 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70bdaff0-830a-4ba1-b349-9f88909eca20")
 	)
 	(wire
 		(pts
@@ -5468,6 +5978,16 @@
 			(type default)
 		)
 		(uuid "7b033d98-5637-48c5-b2b5-8da6c25a6676")
+	)
+	(wire
+		(pts
+			(xy 119.38 252.73) (xy 119.38 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c084c93-4389-478e-bdbc-ee689dd095b4")
 	)
 	(wire
 		(pts
@@ -5763,6 +6283,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 254) (xy 92.71 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9352c71d-edae-4d45-a3f5-9c6c84462550")
+	)
+	(wire
+		(pts
 			(xy 330.2 222.25) (xy 330.2 223.52)
 		)
 		(stroke
@@ -5780,6 +6310,16 @@
 			(type default)
 		)
 		(uuid "942e00c2-b18f-4729-926d-9504b8c55ff0")
+	)
+	(wire
+		(pts
+			(xy 83.82 254) (xy 92.71 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b08792-217b-4cfc-92e1-92df572d915f")
 	)
 	(wire
 		(pts
@@ -5850,6 +6390,16 @@
 			(type default)
 		)
 		(uuid "9c3865cf-93f9-4a67-9d05-736dcdb76e53")
+	)
+	(wire
+		(pts
+			(xy 119.38 233.68) (xy 81.28 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c5e44f4-440a-4984-9429-a1103f0e3932")
 	)
 	(wire
 		(pts
@@ -5980,6 +6530,16 @@
 			(type default)
 		)
 		(uuid "a1e56ca8-6497-401a-94df-386b6009919b")
+	)
+	(wire
+		(pts
+			(xy 110.49 252.73) (xy 110.49 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d29089-349a-4d9f-8ed0-db5fa66aaab4")
 	)
 	(wire
 		(pts
@@ -6173,6 +6733,26 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 254) (xy 110.49 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f63b32-9b5a-4a65-b630-8f29e52a9adf")
+	)
+	(wire
+		(pts
+			(xy 83.82 243.84) (xy 81.28 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b709b885-3cda-42b7-9464-00e593af719d")
+	)
+	(wire
+		(pts
 			(xy 273.05 176.53) (xy 273.05 179.07)
 		)
 		(stroke
@@ -6300,6 +6880,16 @@
 			(type default)
 		)
 		(uuid "c08e3828-5cdd-4ba3-860b-e86a6f44f02c")
+	)
+	(wire
+		(pts
+			(xy 123.19 236.22) (xy 110.49 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c286998f-0108-407d-920c-b7365a776b10")
 	)
 	(wire
 		(pts
@@ -6664,6 +7254,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 231.14) (xy 81.28 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd9cee14-3d08-4b2d-8e41-36702357f2d4")
+	)
+	(wire
+		(pts
 			(xy 269.24 181.61) (xy 273.05 181.61)
 		)
 		(stroke
@@ -6774,6 +7374,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 241.3) (xy 92.71 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4952dd1-2209-4643-b80a-8c00af4d2fb0")
+	)
+	(wire
+		(pts
 			(xy 269.24 78.74) (xy 311.15 78.74)
 		)
 		(stroke
@@ -6824,6 +7434,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 252.73) (xy 83.82 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea519ba5-eb15-42a3-83c4-b3cc086ef5bf")
+	)
+	(wire
+		(pts
 			(xy 175.26 196.85) (xy 175.26 156.21)
 		)
 		(stroke
@@ -6831,6 +7451,16 @@
 			(type default)
 		)
 		(uuid "eb2ddb7d-3b30-4925-a993-1e86845ba16d")
+	)
+	(wire
+		(pts
+			(xy 123.19 238.76) (xy 101.6 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb8384a2-f1d4-47e2-97f8-4ab34255f050")
 	)
 	(wire
 		(pts
@@ -6964,6 +7594,26 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 252.73) (xy 101.6 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f53cb779-8352-4b94-97f0-2a8b9b38e406")
+	)
+	(wire
+		(pts
+			(xy 123.19 241.3) (xy 92.71 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f63e55c4-7ef1-4f2b-a3fa-37f3865af861")
+	)
+	(wire
+		(pts
 			(xy 345.44 96.52) (xy 364.49 96.52)
 		)
 		(stroke
@@ -7043,6 +7693,18 @@
 			(type none)
 		)
 		(uuid 551de91a-128c-4396-8e9f-28a23846e6d3)
+	)
+	(rectangle
+		(start 135.89 222.25)
+		(end 43.18 264.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 88c432f0-bdf3-490b-bb2f-5dd8b8fc5d17)
 	)
 	(rectangle
 		(start 22.86 25.4)
@@ -21876,6 +22538,16 @@
 		)
 		(uuid "96949bb5-eb6b-4f54-b456-d282c905c616")
 	)
+	(text "Buttons"
+		(exclude_from_sim no)
+		(at 89.154 217.932 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "a344b94d-ce5e-466b-bde9-53168203435b")
+	)
 	(text "3.3V Converter"
 		(exclude_from_sim no)
 		(at 58.42 20.574 0)
@@ -21925,6 +22597,116 @@
 			)
 		)
 		(uuid "f5ca20bd-ec9c-4ac0-b35e-5b369dfa7d7d")
+	)
+	(label "Volume-"
+		(at 62.23 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2de57b2b-af05-4a39-994e-9e380a3425be")
+	)
+	(label "Next"
+		(at 123.19 236.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "324ebe1c-02ee-4418-8589-ed7bbc40b8b2")
+	)
+	(label "Volume+"
+		(at 62.23 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "329c3f5f-c3f5-4f02-831d-72bfd3655972")
+	)
+	(label "Play{slash}Pause"
+		(at 123.19 243.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b32cd35-f760-4cb6-88e3-e0369f478931")
+	)
+	(label "Volume+"
+		(at 123.19 241.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d47f6ad-9130-4faa-a10a-1a0b2f00c8ce")
+	)
+	(label "Next"
+		(at 62.23 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67fe970d-a5fe-4d6a-adbe-d5bf0112467d")
+	)
+	(label "Previous"
+		(at 123.19 233.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6bc26773-74b5-46f7-8a20-bd01cc3c5cdd")
+	)
+	(label "Volume-"
+		(at 123.19 238.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c8e5980-1d38-4ba7-87d6-75db41c66802")
+	)
+	(label "Previous"
+		(at 62.23 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc4c6a30-a24d-4a87-bf31-f0992a5b96f0")
+	)
+	(label "Play{slash}Pause"
+		(at 62.23 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6e9d7c1-58a7-4d7a-883c-4af1070e9a2d")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -22292,6 +23074,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Molex_430450227_1")
 		(lib_id "Speaker Amp Lib:Molex_430450227")
 		(at 356.87 226.06 0)
 		(unit 1)
@@ -23371,6 +24154,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 101.6 256.54 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "330d7cb3-fca6-400e-b80c-1555bf5bc675")
+		(property "Reference" "#PWR035"
+			(at 101.6 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 260.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97de6ef5-deab-4663-9e2c-89d092fa0f97")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 189.23 259.08 180)
 		(unit 1)
@@ -24316,6 +25165,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 83.82 229.87 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5016518d-50fd-4f78-8158-17b88061ee6c")
+		(property "Reference" "#PWR034"
+			(at 83.82 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 83.82 225.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 83.82 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a82ab6d5-8e3d-48f3-944d-b278dd77bccd")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 283.21 83.82 90)
 		(unit 1)
@@ -25232,6 +26147,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 83.82 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7fd13849-c91a-4c5a-a33b-c362b520c8f1")
+		(property "Reference" "R15"
+			(at 82.042 247.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 82.042 250.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 82.042 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+			(at 83.82 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "YAGEO - RT0805DRD074K7L"
+			(at 83.82 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/YAGEO/RT0805DRD074K7L?qs=4CyHz7GXqSgskZKNIL1%252BXQ%3D%3D"
+			(at 83.82 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdcaaf81-e31c-4f6c-a1a3-8bbc60e0d2b4")
+		)
+		(pin "2"
+			(uuid "2cef8353-e635-453e-b04e-f78460630e8c")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 242.57 252.73 0)
 		(mirror x)
@@ -25357,6 +26350,84 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d84ef18-724c-4ebb-8342-a3f72ce5c36c")
+		(property "Reference" "R12"
+			(at 108.712 247.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 108.712 250.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 108.712 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+			(at 110.49 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "YAGEO - RT0805DRD074K7L"
+			(at 110.49 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/YAGEO/RT0805DRD074K7L?qs=4CyHz7GXqSgskZKNIL1%252BXQ%3D%3D"
+			(at 110.49 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0640b4d-1d37-46e8-a324-a3fe91bed92d")
+		)
+		(pin "2"
+			(uuid "7b8d5aed-e4ce-439f-ba63-a9a4786de653")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -26009,6 +27080,84 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 92.71 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b312f9f-5f95-4166-a878-edfaef515105")
+		(property "Reference" "R14"
+			(at 90.932 247.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 90.932 250.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 90.932 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+			(at 92.71 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "YAGEO - RT0805DRD074K7L"
+			(at 92.71 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/YAGEO/RT0805DRD074K7L?qs=4CyHz7GXqSgskZKNIL1%252BXQ%3D%3D"
+			(at 92.71 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c23ee1e-7eba-4d9b-992a-5eb21aa29bb1")
+		)
+		(pin "2"
+			(uuid "069be211-0de2-4162-85ea-e5f27da00c6b")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -27071,7 +28220,8 @@
 	)
 	(symbol
 		(lib_id "Speaker Amp Lib:Molex_1053101106")
-		(at 97.79 231.14 0)
+		(at 81.28 231.14 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27080,7 +28230,7 @@
 		(fields_autoplaced yes)
 		(uuid "b561f3ab-fdee-481f-928a-07fd74efefcd")
 		(property "Reference" "J5"
-			(at 111.76 236.2199 0)
+			(at 67.31 236.2199 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -27089,7 +28239,7 @@
 			)
 		)
 		(property "Value" "Molex_1053101106"
-			(at 111.76 238.7599 0)
+			(at 67.31 238.7599 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -27098,7 +28248,7 @@
 			)
 		)
 		(property "Footprint" "Speaker Amp Lib:Molex_1053101106"
-			(at 96.774 247.904 0)
+			(at 82.296 247.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27108,7 +28258,7 @@
 			)
 		)
 		(property "Datasheet" "1053101106"
-			(at 97.79 231.14 0)
+			(at 81.28 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27118,7 +28268,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 231.14 0)
+			(at 81.28 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27445,6 +28595,84 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b93bf0af-18d9-4f20-9363-d694b763acf5")
+		(property "Reference" "R11"
+			(at 117.602 247.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 117.602 250.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 117.602 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+			(at 119.38 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "YAGEO - RT0805DRD074K7L"
+			(at 119.38 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/YAGEO/RT0805DRD074K7L?qs=4CyHz7GXqSgskZKNIL1%252BXQ%3D%3D"
+			(at 119.38 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b552a78-f9ac-4f7a-bc9a-f4a766084200")
+		)
+		(pin "2"
+			(uuid "c10a97b7-8300-437f-a801-c4a0f52f4fb7")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -28438,6 +29666,84 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d941d2a5-d22c-4082-901a-65bc7fa14856")
+		(property "Reference" "R13"
+			(at 99.822 247.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 99.822 250.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 99.822 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+			(at 101.6 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "YAGEO - RT0805DRD074K7L"
+			(at 101.6 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/YAGEO/RT0805DRD074K7L?qs=4CyHz7GXqSgskZKNIL1%252BXQ%3D%3D"
+			(at 101.6 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7e5f815-d862-4ba5-9593-2aa5a0e57a32")
+		)
+		(pin "2"
+			(uuid "18f80d41-f335-4a43-827d-5c5f762047f3")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "R13")
 					(unit 1)
 				)
 			)
