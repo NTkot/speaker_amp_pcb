@@ -4919,6 +4919,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 135.89) (xy 66.04 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a22580a-b54f-453f-9bb0-4a357dc0f49f")
+	)
+	(wire
+		(pts
 			(xy 294.64 214.63) (xy 294.64 217.17)
 		)
 		(stroke
@@ -5798,16 +5808,6 @@
 			(type default)
 		)
 		(uuid "715fa5a0-5a42-4b99-b374-b82a5a88ccd6")
-	)
-	(wire
-		(pts
-			(xy 62.23 161.29) (xy 66.04 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71896c16-a99b-4013-b644-f799e11ed754")
 	)
 	(wire
 		(pts
@@ -22687,7 +22687,7 @@
 		(uuid "7c8e5980-1d38-4ba7-87d6-75db41c66802")
 	)
 	(label "Previous"
-		(at 62.23 161.29 180)
+		(at 62.23 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
