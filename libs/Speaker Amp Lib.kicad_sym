@@ -3964,7 +3964,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 26.416 -71.374 0)
+			(at 26.416 -73.66 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3972,14 +3972,14 @@
 			)
 		)
 		(property "Value" "TAS5822MDCPR"
-			(at 26.416 -73.914 0)
+			(at 26.416 -76.2 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "DCP0038A-IPC_A"
+		(property "Footprint" "Speaker Amp Lib:DCP0038A-IPC_A"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4008,14 +4008,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "ki_keywords" "TAS5822MDCPR"
 			(at 0 0 0)
 			(effects
@@ -4037,7 +4029,7 @@
 		(symbol "TAS5822MDCPR_0_1"
 			(polyline
 				(pts
-					(xy 5.08 -68.58) (xy 45.72 -68.58)
+					(xy 5.08 -71.12) (xy 45.72 -71.12)
 				)
 				(stroke
 					(width 0.2032)
@@ -4049,7 +4041,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 5.08) (xy 5.08 -68.58)
+					(xy 5.08 5.08) (xy 5.08 -71.12)
 				)
 				(stroke
 					(width 0.2032)
@@ -4061,7 +4053,7 @@
 			)
 			(polyline
 				(pts
-					(xy 45.72 -68.58) (xy 45.72 5.08)
+					(xy 45.72 -71.12) (xy 45.72 5.08)
 				)
 				(stroke
 					(width 0.2032)
@@ -4084,7 +4076,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 -17.78 180)
+				(at 0 2.54 0)
 				(length 5.08)
 				(name "BST_A-"
 					(effects
@@ -4102,7 +4094,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -35.56 0)
+				(at 0 -36.83 0)
 				(length 5.08)
 				(name "ADR_FAULT_N"
 					(effects
@@ -4120,7 +4112,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -22.86 0)
+				(at 0 -39.37 0)
 				(length 5.08)
 				(name "VR_DIG"
 					(effects
@@ -4138,7 +4130,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 -58.42 180)
+				(at 0 -44.45 0)
 				(length 5.08)
 				(name "DGND"
 					(effects
@@ -4156,7 +4148,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -43.18 0)
+				(at 0 -49.53 0)
 				(length 5.08)
 				(name "LRCLK"
 					(effects
@@ -4174,7 +4166,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -45.72 0)
+				(at 0 -52.07 0)
 				(length 5.08)
 				(name "SCLK"
 					(effects
@@ -4192,7 +4184,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -48.26 0)
+				(at 0 -54.61 0)
 				(length 5.08)
 				(name "SDIN"
 					(effects
@@ -4210,7 +4202,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -53.34 0)
+				(at 0 -59.69 0)
 				(length 5.08)
 				(name "NC"
 					(effects
@@ -4228,7 +4220,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -55.88 0)
+				(at 0 -62.23 0)
 				(length 5.08)
 				(name "NC"
 					(effects
@@ -4246,7 +4238,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -58.42 0)
+				(at 0 -64.77 0)
 				(length 5.08)
 				(name "NC"
 					(effects
@@ -4264,7 +4256,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -60.96 0)
+				(at 0 -67.31 0)
 				(length 5.08)
 				(name "NC"
 					(effects
@@ -4282,7 +4274,7 @@
 				)
 			)
 			(pin output line
-				(at 50.8 -2.54 180)
+				(at 0 0 0)
 				(length 5.08)
 				(name "OUT_A-"
 					(effects
@@ -4300,7 +4292,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -63.5 0)
+				(at 50.8 -63.5 180)
 				(length 5.08)
 				(name "NC"
 					(effects
@@ -4318,7 +4310,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -66.04 0)
+				(at 50.8 -60.96 180)
 				(length 5.08)
 				(name "NC"
 					(effects
@@ -4336,7 +4328,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 50.8 -33.02 180)
+				(at 50.8 -58.42 180)
 				(length 5.08)
 				(name "NC"
 					(effects
@@ -4354,7 +4346,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 50.8 -35.56 180)
+				(at 50.8 -55.88 180)
 				(length 5.08)
 				(name "NC"
 					(effects
@@ -4372,7 +4364,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 50.8 -38.1 180)
+				(at 50.8 -53.34 180)
 				(length 5.08)
 				(name "NC"
 					(effects
@@ -4390,7 +4382,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 50.8 -40.64 180)
+				(at 50.8 -50.8 180)
 				(length 5.08)
 				(name "NC"
 					(effects
@@ -4408,7 +4400,7 @@
 				)
 			)
 			(pin output line
-				(at 0 -50.8 0)
+				(at 50.8 -45.72 180)
 				(length 5.08)
 				(name "SDOUT"
 					(effects
@@ -4426,7 +4418,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -27.94 0)
+				(at 50.8 -43.18 180)
 				(length 5.08)
 				(name "SDA"
 					(effects
@@ -4444,7 +4436,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -30.48 0)
+				(at 50.8 -40.64 180)
 				(length 5.08)
 				(name "SCL"
 					(effects
@@ -4462,7 +4454,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -38.1 0)
+				(at 50.8 -36.83 180)
 				(length 5.08)
 				(name "PDN_N"
 					(effects
@@ -4480,7 +4472,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 -53.34 180)
+				(at 0 -3.81 0)
 				(length 5.08)
 				(name "PGND"
 					(effects
@@ -4498,7 +4490,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -17.78 0)
+				(at 50.8 -31.75 180)
 				(length 5.08)
 				(name "AVDD"
 					(effects
@@ -4516,7 +4508,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 -55.88 180)
+				(at 50.8 -27.94 180)
 				(length 5.08)
 				(name "AGND"
 					(effects
@@ -4534,7 +4526,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -7.62 0)
+				(at 50.8 -20.32 180)
 				(length 5.08)
 				(name "PVDD"
 					(effects
@@ -4552,7 +4544,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -10.16 0)
+				(at 50.8 -17.78 180)
 				(length 5.08)
 				(name "PVDD"
 					(effects
@@ -4570,7 +4562,7 @@
 				)
 			)
 			(pin output line
-				(at 50.8 -7.62 180)
+				(at 50.8 -10.16 180)
 				(length 5.08)
 				(name "OUT_B+"
 					(effects
@@ -4588,7 +4580,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 -20.32 180)
+				(at 50.8 -7.62 180)
 				(length 5.08)
 				(name "BST_B+"
 					(effects
@@ -4606,7 +4598,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 -50.8 180)
+				(at 50.8 -3.81 180)
 				(length 5.08)
 				(name "PGND"
 					(effects
@@ -4624,7 +4616,7 @@
 				)
 			)
 			(pin output line
-				(at 50.8 -10.16 180)
+				(at 50.8 0 180)
 				(length 5.08)
 				(name "OUT_B-"
 					(effects
@@ -4642,7 +4634,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 -22.86 180)
+				(at 50.8 2.54 180)
 				(length 5.08)
 				(name "BST_B-"
 					(effects
@@ -4660,7 +4652,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 -66.04 180)
+				(at 50.8 -68.58 180)
 				(length 5.08)
 				(name "Thermal_Pad"
 					(effects
@@ -4678,7 +4670,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 -15.24 180)
+				(at 0 -7.62 0)
 				(length 5.08)
 				(name "BST_A+"
 					(effects
@@ -4696,7 +4688,7 @@
 				)
 			)
 			(pin output line
-				(at 50.8 0 180)
+				(at 0 -10.16 0)
 				(length 5.08)
 				(name "OUT_A+"
 					(effects
@@ -4714,7 +4706,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 0 0)
+				(at 0 -17.78 0)
 				(length 5.08)
 				(name "PVDD"
 					(effects
@@ -4732,7 +4724,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -2.54 0)
+				(at 0 -20.32 0)
 				(length 5.08)
 				(name "PVDD"
 					(effects
@@ -4750,7 +4742,7 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 -60.96 180)
+				(at 0 -27.94 0)
 				(length 5.08)
 				(name "DGND"
 					(effects
@@ -4768,7 +4760,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -15.24 0)
+				(at 0 -31.75 0)
 				(length 5.08)
 				(name "DVDD"
 					(effects
