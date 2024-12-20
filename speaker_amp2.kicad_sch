@@ -2799,7 +2799,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U2"
-				(at 26.035 -35.687 0)
+				(at 27.432 -34.29 90)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -2807,7 +2807,7 @@
 				)
 			)
 			(property "Value" "TAS5822MDCPR"
-				(at 26.035 -32.639 0)
+				(at 24.384 -34.29 90)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -2815,7 +2815,7 @@
 				)
 			)
 			(property "Footprint" "Speaker Amp Lib:DCP0038A-IPC_A"
-				(at 0 0 0)
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2825,7 +2825,7 @@
 				)
 			)
 			(property "Datasheet" "TAS5822MDCPR"
-				(at 0 0 0)
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -28841,7 +28841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Speaker Amp Lib:DCP0038A-IPC_A"
+		(property "Footprint" "Speaker Amp Lib:DCP0038A-IPC_B"
 			(at 243.84 60.96 0)
 			(effects
 				(font
@@ -30771,8 +30771,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Speaker Amp Lib:DCP0038A-IPC_A"
-			(at 279.4 184.15 0)
+		(property "Footprint" "Speaker Amp Lib:DCP0038A-IPC_B"
+			(at 278.13 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30782,7 +30782,7 @@
 			)
 		)
 		(property "Datasheet" "TAS5822MDCPR"
-			(at 279.4 184.15 0)
+			(at 278.13 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
