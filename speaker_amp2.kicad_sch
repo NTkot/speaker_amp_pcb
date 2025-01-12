@@ -4925,13 +4925,13 @@
 		(uuid "44db4f56-49f9-4d51-b391-2edf60febd07")
 	)
 	(junction
-		(at 92.71 241.3)
+		(at 77.47 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49fa2b3c-edde-4cf9-a53f-90e4e6476b97")
 	)
 	(junction
-		(at 110.49 254)
+		(at 95.25 252.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ab9aeec-cf4e-4a9c-ada9-3c5cff3715e2")
@@ -4985,7 +4985,7 @@
 		(uuid "59382d21-cad6-40fe-a98c-e8bf28a69c46")
 	)
 	(junction
-		(at 110.49 236.22)
+		(at 95.25 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6012302e-3532-4281-b3dd-297671de3222")
@@ -5087,7 +5087,7 @@
 		(uuid "9a7424d5-93cc-4a3b-ad6e-904e9d77adae")
 	)
 	(junction
-		(at 101.6 254)
+		(at 86.36 252.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b4d1718-61da-4690-a195-df47190e473a")
@@ -5117,7 +5117,7 @@
 		(uuid "abcf15b5-5990-4627-a787-894a4df31250")
 	)
 	(junction
-		(at 92.71 254)
+		(at 77.47 252.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acc802da-b103-4c1b-aa4d-50894f5b5ee9")
@@ -5165,13 +5165,13 @@
 		(uuid "cdb415a7-5601-4e40-b942-b156796718e5")
 	)
 	(junction
-		(at 83.82 243.84)
+		(at 68.58 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf8742b0-bc6e-4066-b75e-69c552554d08")
 	)
 	(junction
-		(at 101.6 238.76)
+		(at 86.36 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d26d6eff-5694-4413-846d-b50ade4cf6f9")
@@ -5267,7 +5267,7 @@
 		(uuid "fb3acfe1-4c62-4653-b0d7-9c77f589dcef")
 	)
 	(junction
-		(at 119.38 233.68)
+		(at 104.14 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd84ac42-d775-4abf-be67-48d98d8990c8")
@@ -5728,7 +5728,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 254) (xy 101.6 256.54)
+			(xy 86.36 252.73) (xy 86.36 255.27)
 		)
 		(stroke
 			(width 0)
@@ -5758,7 +5758,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 229.87) (xy 83.82 231.14)
+			(xy 68.58 228.6) (xy 68.58 229.87)
 		)
 		(stroke
 			(width 0)
@@ -5808,7 +5808,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 233.68) (xy 119.38 233.68)
+			(xy 107.95 232.41) (xy 104.14 232.41)
 		)
 		(stroke
 			(width 0)
@@ -5818,7 +5818,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 254) (xy 101.6 254)
+			(xy 95.25 252.73) (xy 86.36 252.73)
 		)
 		(stroke
 			(width 0)
@@ -5978,7 +5978,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 44.45) (xy 139.7 44.45)
+			(xy 149.86 44.45) (xy 147.32 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6058,7 +6058,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 243.84) (xy 83.82 243.84)
+			(xy 107.95 242.57) (xy 68.58 242.57)
 		)
 		(stroke
 			(width 0)
@@ -6098,7 +6098,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 238.76) (xy 81.28 238.76)
+			(xy 86.36 237.49) (xy 66.04 237.49)
 		)
 		(stroke
 			(width 0)
@@ -6398,7 +6398,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 241.3) (xy 81.28 241.3)
+			(xy 77.47 240.03) (xy 66.04 240.03)
 		)
 		(stroke
 			(width 0)
@@ -6548,7 +6548,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 245.11) (xy 83.82 243.84)
+			(xy 68.58 243.84) (xy 68.58 242.57)
 		)
 		(stroke
 			(width 0)
@@ -6638,7 +6638,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 238.76) (xy 101.6 245.11)
+			(xy 86.36 237.49) (xy 86.36 243.84)
 		)
 		(stroke
 			(width 0)
@@ -6718,7 +6718,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 252.73) (xy 92.71 254)
+			(xy 77.47 251.46) (xy 77.47 252.73)
 		)
 		(stroke
 			(width 0)
@@ -6768,7 +6768,17 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 236.22) (xy 81.28 236.22)
+			(xy 167.64 238.76) (xy 165.1 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66bcfbac-2fde-4420-b309-46ae5d790678")
+	)
+	(wire
+		(pts
+			(xy 95.25 234.95) (xy 66.04 234.95)
 		)
 		(stroke
 			(width 0)
@@ -6828,7 +6838,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 233.68) (xy 119.38 245.11)
+			(xy 104.14 232.41) (xy 104.14 243.84)
 		)
 		(stroke
 			(width 0)
@@ -6858,7 +6868,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 236.22) (xy 110.49 245.11)
+			(xy 95.25 234.95) (xy 95.25 243.84)
 		)
 		(stroke
 			(width 0)
@@ -6958,7 +6968,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 252.73) (xy 119.38 254)
+			(xy 104.14 251.46) (xy 104.14 252.73)
 		)
 		(stroke
 			(width 0)
@@ -7268,7 +7278,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 254) (xy 92.71 254)
+			(xy 86.36 252.73) (xy 77.47 252.73)
 		)
 		(stroke
 			(width 0)
@@ -7348,7 +7358,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 254) (xy 92.71 254)
+			(xy 68.58 252.73) (xy 77.47 252.73)
 		)
 		(stroke
 			(width 0)
@@ -7408,7 +7418,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 233.68) (xy 81.28 233.68)
+			(xy 104.14 232.41) (xy 66.04 232.41)
 		)
 		(stroke
 			(width 0)
@@ -7518,7 +7528,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 252.73) (xy 110.49 254)
+			(xy 95.25 251.46) (xy 95.25 252.73)
 		)
 		(stroke
 			(width 0)
@@ -7758,7 +7768,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 254) (xy 110.49 254)
+			(xy 104.14 252.73) (xy 95.25 252.73)
 		)
 		(stroke
 			(width 0)
@@ -7768,7 +7778,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 243.84) (xy 81.28 243.84)
+			(xy 68.58 242.57) (xy 66.04 242.57)
 		)
 		(stroke
 			(width 0)
@@ -7805,6 +7815,16 @@
 			(type default)
 		)
 		(uuid "baee9eaa-f13d-483b-b5ef-f607955401c3")
+	)
+	(wire
+		(pts
+			(xy 165.1 251.46) (xy 177.8 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb367404-88af-4e22-9a77-18ecd5649641")
 	)
 	(wire
 		(pts
@@ -7918,7 +7938,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 236.22) (xy 110.49 236.22)
+			(xy 107.95 234.95) (xy 95.25 234.95)
 		)
 		(stroke
 			(width 0)
@@ -8005,6 +8025,16 @@
 			(type default)
 		)
 		(uuid "cc7fb721-6964-4d11-a54c-a426de286173")
+	)
+	(wire
+		(pts
+			(xy 177.8 238.76) (xy 175.26 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd6a16ee-2191-4fb4-b767-c3cccae1d3f3")
 	)
 	(wire
 		(pts
@@ -8108,7 +8138,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 57.15) (xy 142.24 57.15)
+			(xy 137.16 57.15) (xy 149.86 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8148,7 +8178,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 44.45) (xy 129.54 44.45)
+			(xy 139.7 44.45) (xy 137.16 44.45)
 		)
 		(stroke
 			(width 0)
@@ -8218,7 +8248,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 231.14) (xy 81.28 231.14)
+			(xy 68.58 229.87) (xy 66.04 229.87)
 		)
 		(stroke
 			(width 0)
@@ -8318,7 +8348,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 241.3) (xy 92.71 245.11)
+			(xy 77.47 240.03) (xy 77.47 243.84)
 		)
 		(stroke
 			(width 0)
@@ -8378,7 +8408,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 252.73) (xy 83.82 254)
+			(xy 68.58 251.46) (xy 68.58 252.73)
 		)
 		(stroke
 			(width 0)
@@ -8388,7 +8418,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 238.76) (xy 101.6 238.76)
+			(xy 107.95 237.49) (xy 86.36 237.49)
 		)
 		(stroke
 			(width 0)
@@ -8488,7 +8518,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 252.73) (xy 101.6 254)
+			(xy 86.36 251.46) (xy 86.36 252.73)
 		)
 		(stroke
 			(width 0)
@@ -8518,7 +8548,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 241.3) (xy 92.71 241.3)
+			(xy 107.95 240.03) (xy 77.47 240.03)
 		)
 		(stroke
 			(width 0)
@@ -8597,8 +8627,8 @@
 		(uuid "fd83d174-ce31-49ca-bff9-d70863e57f6e")
 	)
 	(rectangle
-		(start 154.94 31.75)
-		(end 107.95 66.04)
+		(start 162.56 31.75)
+		(end 115.57 66.04)
 		(stroke
 			(width 0)
 			(type default)
@@ -8609,8 +8639,20 @@
 		(uuid 551de91a-128c-4396-8e9f-28a23846e6d3)
 	)
 	(rectangle
-		(start 43.18 222.25)
-		(end 135.89 264.16)
+		(start 190.5 226.06)
+		(end 143.51 260.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 86b49b3c-8efa-44ac-ba50-dbb23f114528)
+	)
+	(rectangle
+		(start 27.94 220.98)
+		(end 120.65 262.89)
 		(stroke
 			(width 0)
 			(type default)
@@ -23352,6 +23394,16 @@
 		)
 		(uuid "1004376c-196c-4a22-81b6-e3f557be1a24")
 	)
+	(text "Power Input - U2"
+		(exclude_from_sim no)
+		(at 166.878 222.504 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+		)
+		(uuid "17cb251d-907d-4c08-bfb7-6d730c67ebf5")
+	)
 	(text "MCU"
 		(exclude_from_sim no)
 		(at 92.202 82.042 0)
@@ -23416,7 +23468,7 @@
 	)
 	(text "Buttons"
 		(exclude_from_sim no)
-		(at 89.154 217.932 0)
+		(at 73.914 216.662 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -23434,9 +23486,9 @@
 		)
 		(uuid "afb5e678-b9df-475b-a473-0c08d7e1bec5")
 	)
-	(text "Power Input"
+	(text "Power Input - U1"
 		(exclude_from_sim no)
-		(at 131.318 28.194 0)
+		(at 138.938 28.194 0)
 		(effects
 			(font
 				(size 3.175 3.175)
@@ -23489,7 +23541,7 @@
 		(uuid "300109c5-4fc5-48f4-b26c-9831f833f639")
 	)
 	(label "Next"
-		(at 123.19 236.22 0)
+		(at 107.95 234.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23533,7 +23585,7 @@
 		(uuid "4ad0cb15-610f-4f88-8007-a4539c86ccba")
 	)
 	(label "Play{slash}Pause"
-		(at 123.19 243.84 0)
+		(at 107.95 242.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23544,7 +23596,7 @@
 		(uuid "4b32cd35-f760-4cb6-88e3-e0369f478931")
 	)
 	(label "Volume+"
-		(at 123.19 241.3 0)
+		(at 107.95 240.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23588,7 +23640,7 @@
 		(uuid "67fe970d-a5fe-4d6a-adbe-d5bf0112467d")
 	)
 	(label "Previous"
-		(at 123.19 233.68 0)
+		(at 107.95 232.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23599,7 +23651,7 @@
 		(uuid "6bc26773-74b5-46f7-8a20-bd01cc3c5cdd")
 	)
 	(label "Volume-"
-		(at 123.19 238.76 0)
+		(at 107.95 237.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23828,6 +23880,82 @@
 			(justify left top)
 		)
 		(uuid "fa04148d-b16c-4199-af88-c71b37cdbfdd")
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 271.78 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01ec9e63-f1c5-431e-996e-0ae47d88ceef")
+		(property "Reference" "L2"
+			(at 271.78 57.404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22u"
+			(at 271.78 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-M-Typ-S_Handsoldering"
+			(at 271.78 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7447773220.pdf"
+			(at 271.78 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wurth Elektronik - 7447773220"
+			(at 271.78 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/Wurth-Elektronik/7447773220?qs=u16ybLDytRbRnjEx%252BwZuJw%3D%3D"
+			(at 271.78 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0dec744-83b9-41f3-a2b2-d1d497333dea")
+		)
+		(pin "2"
+			(uuid "618f342f-a0b3-4371-bed8-7d34f26db46e")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -24325,24 +24453,24 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 135.89 44.45 270)
+		(at 171.45 238.76 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "11654145-2dd0-40e0-81e1-ead86145fc50")
-		(property "Reference" "F1"
-			(at 135.89 49.276 90)
+		(uuid "113900c1-c5ca-4f04-aa7f-c28858c926c0")
+		(property "Reference" "F2"
+			(at 171.45 243.586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "8A"
-			(at 135.89 46.736 90)
+		(property "Value" "2A"
+			(at 171.45 241.046 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24350,7 +24478,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 135.89 46.228 90)
+			(at 171.45 240.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24359,7 +24487,7 @@
 			)
 		)
 		(property "Datasheet" "https://gr.mouser.com/datasheet/2/643/ds_CP_0685P_series-1960388.pdf"
-			(at 135.89 44.45 0)
+			(at 171.45 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24367,8 +24495,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bel Fuse - 0685P8000-01"
-			(at 135.89 44.45 0)
+		(property "Description" "Bel Fuse - 0685P2000-01"
+			(at 171.45 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24376,8 +24504,8 @@
 				(hide yes)
 			)
 		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/Bel-Fuse/0685P8000-01?qs=vLWxofP3U2ymdTHu8UmoqA%3D%3D"
-			(at 135.89 44.45 90)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/Bel-Fuse/0685P2000-01?qs=vLWxofP3U2wVMvAft2WoWQ%3D%3D"
+			(at 171.45 238.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24386,15 +24514,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4a385eae-5b4a-4e9d-b332-cb1a82c93470")
+			(uuid "56f84ce2-a172-4902-9c06-d5a75e4800d1")
 		)
 		(pin "2"
-			(uuid "56eb430e-2fd9-4918-92de-51ea2bfe9f09")
+			(uuid "02a103d5-691c-44a9-b689-f3a72322e8a3")
 		)
 		(instances
-			(project ""
+			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
-					(reference "F1")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -24613,82 +24741,6 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 271.78 52.07 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2660ca18-af40-420c-a920-6990b5c4c7f3")
-		(property "Reference" "L2"
-			(at 271.78 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22u"
-			(at 271.78 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-LS_Handsoldering"
-			(at 271.78 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7447707220.pdf"
-			(at 271.78 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Wurth Elektronik - 7447707220"
-			(at 271.78 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/Wurth-Elektronik/7447707220?qs=DPoM0jnrROU%252BcE0mb2gCYA%3D%3D"
-			(at 271.78 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1fadc01-cf3a-4b8a-9414-84caa6199399")
-		)
-		(pin "2"
-			(uuid "2029517e-163a-4d3f-a3fb-4a61e89a2ffe")
-		)
-		(instances
-			(project "speaker_amp2"
-				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -24993,7 +25045,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 256.54 0)
+		(at 86.36 255.27 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25002,7 +25054,7 @@
 		(dnp no)
 		(uuid "330d7cb3-fca6-400e-b80c-1555bf5bc675")
 		(property "Reference" "#PWR035"
-			(at 101.6 262.89 0)
+			(at 86.36 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25011,7 +25063,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 260.604 0)
+			(at 86.36 259.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25019,7 +25071,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 256.54 0)
+			(at 86.36 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25028,7 +25080,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 256.54 0)
+			(at 86.36 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25037,7 +25089,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 256.54 0)
+			(at 86.36 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25193,6 +25245,73 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 251.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "356e52d0-a2cd-40fa-b5b7-8b8d1860daa2")
+		(property "Reference" "#PWR020"
+			(at 184.15 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 251.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfbc739e-f52c-463a-8a7a-2533ec27f11e")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -25420,6 +25539,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 304.8 213.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40df7941-74b6-4804-8150-94cf499b6e1e")
+		(property "Reference" "L7"
+			(at 304.8 217.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 304.8 215.392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Speaker Amp Lib:L_Wuerth_WE-PDF_Handsoldering_7mm_apart"
+			(at 304.8 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7447714100.pdf"
+			(at 304.8 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wurth Elektronik - 7447714100"
+			(at 304.8 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/Wurth-Elektronik/7447714100?qs=XJfXErqHgA4E7sDRWCHdYQ%3D%3D"
+			(at 304.8 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11b9bd7f-474f-4746-8ae3-e9dd431d2a7c")
+		)
+		(pin "2"
+			(uuid "a7ca7499-3d69-4e02-a882-3c9ce9c028fe")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "L7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 220.98 130.81 90)
 		(unit 1)
@@ -25490,6 +25685,71 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 177.8 238.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45cb2d5f-2b11-49b5-a8dd-3ae5e6911d59")
+		(property "Reference" "#PWR019"
+			(at 173.99 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PVDD2"
+			(at 184.15 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 177.8 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "841e638a-d868-4590-983c-dc07ad2368f8")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -25925,7 +26185,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 83.82 229.87 0)
+		(at 68.58 228.6 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25934,7 +26194,7 @@
 		(dnp no)
 		(uuid "5016518d-50fd-4f78-8158-17b88061ee6c")
 		(property "Reference" "#PWR034"
-			(at 83.82 233.68 0)
+			(at 68.58 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25943,7 +26203,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 83.82 225.298 0)
+			(at 68.58 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25951,7 +26211,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 229.87 0)
+			(at 68.58 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25960,7 +26220,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 229.87 0)
+			(at 68.58 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25969,7 +26229,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 83.82 229.87 0)
+			(at 68.58 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26067,7 +26327,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 57.15 90)
+		(at 149.86 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26076,7 +26336,7 @@
 		(fields_autoplaced yes)
 		(uuid "50706d51-d8cf-458e-a545-2110df5c9dea")
 		(property "Reference" "#PWR031"
-			(at 148.59 57.15 0)
+			(at 156.21 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26085,7 +26345,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 57.1499 90)
+			(at 153.67 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26094,7 +26354,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 57.15 0)
+			(at 149.86 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26103,7 +26363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 57.15 0)
+			(at 149.86 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26112,7 +26372,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 57.15 0)
+			(at 149.86 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26127,82 +26387,6 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 273.05 134.62 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a33999a-ccb6-4704-95eb-5f614055c545")
-		(property "Reference" "L4"
-			(at 273.05 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22u"
-			(at 273.05 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-LS_Handsoldering"
-			(at 273.05 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7447707220.pdf"
-			(at 273.05 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Wurth Elektronik - 7447707220"
-			(at 273.05 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/Wurth-Elektronik/7447707220?qs=DPoM0jnrROU%252BcE0mb2gCYA%3D%3D"
-			(at 273.05 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d72ecee6-72df-4db9-bdd0-5289036ad0c6")
-		)
-		(pin "2"
-			(uuid "462acd58-3d01-453c-b9d2-51d0f96fad84")
-		)
-		(instances
-			(project "speaker_amp2"
-				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
-					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -26704,6 +26888,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 143.51 44.45 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70806be6-e5b9-4481-a538-010a74d0c02a")
+		(property "Reference" "F1"
+			(at 143.51 49.276 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2A"
+			(at 143.51 46.736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 143.51 46.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/643/ds_CP_0685P_series-1960388.pdf"
+			(at 143.51 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bel Fuse - 0685P2000-01"
+			(at 143.51 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/Bel-Fuse/0685P2000-01?qs=vLWxofP3U2wVMvAft2WoWQ%3D%3D"
+			(at 143.51 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57f7f075-02f0-430a-887a-2a781f001a52")
+		)
+		(pin "2"
+			(uuid "532b52c5-e32a-4160-90ad-c1e0667d20e6")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 241.3 154.94 270)
 		(unit 1)
@@ -27127,7 +27388,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 83.82 248.92 0)
+		(at 68.58 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27135,7 +27396,7 @@
 		(dnp no)
 		(uuid "7fd13849-c91a-4c5a-a33b-c362b520c8f1")
 		(property "Reference" "R15"
-			(at 82.042 247.904 0)
+			(at 66.802 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27144,7 +27405,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 82.042 250.444 0)
+			(at 66.802 249.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27153,7 +27414,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 82.042 248.92 90)
+			(at 66.802 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27162,7 +27423,7 @@
 			)
 		)
 		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
-			(at 83.82 248.92 0)
+			(at 68.58 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27171,7 +27432,7 @@
 			)
 		)
 		(property "Description" "YAGEO - RT0805DRD074K7L"
-			(at 83.82 248.92 0)
+			(at 68.58 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27180,7 +27441,7 @@
 			)
 		)
 		(property "MouserLink" "https://gr.mouser.com/ProductDetail/YAGEO/RT0805DRD074K7L?qs=4CyHz7GXqSgskZKNIL1%252BXQ%3D%3D"
-			(at 83.82 248.92 0)
+			(at 68.58 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27413,7 +27674,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 110.49 248.92 0)
+		(at 95.25 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27421,7 +27682,7 @@
 		(dnp no)
 		(uuid "8d84ef18-724c-4ebb-8342-a3f72ce5c36c")
 		(property "Reference" "R12"
-			(at 108.712 247.904 0)
+			(at 93.472 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27430,7 +27691,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 108.712 250.444 0)
+			(at 93.472 249.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27439,7 +27700,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 108.712 248.92 90)
+			(at 93.472 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27448,7 +27709,7 @@
 			)
 		)
 		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
-			(at 110.49 248.92 0)
+			(at 95.25 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27457,7 +27718,7 @@
 			)
 		)
 		(property "Description" "YAGEO - RT0805DRD074K7L"
-			(at 110.49 248.92 0)
+			(at 95.25 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27466,7 +27727,7 @@
 			)
 		)
 		(property "MouserLink" "https://gr.mouser.com/ProductDetail/YAGEO/RT0805DRD074K7L?qs=4CyHz7GXqSgskZKNIL1%252BXQ%3D%3D"
-			(at 110.49 248.92 0)
+			(at 95.25 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27933,7 +28194,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 92.71 248.92 0)
+		(at 77.47 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27941,7 +28202,7 @@
 		(dnp no)
 		(uuid "9b312f9f-5f95-4166-a878-edfaef515105")
 		(property "Reference" "R14"
-			(at 90.932 247.904 0)
+			(at 75.692 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27950,7 +28211,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 90.932 250.444 0)
+			(at 75.692 249.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27959,7 +28220,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 90.932 248.92 90)
+			(at 75.692 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27968,7 +28229,7 @@
 			)
 		)
 		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
-			(at 92.71 248.92 0)
+			(at 77.47 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27977,7 +28238,7 @@
 			)
 		)
 		(property "Description" "YAGEO - RT0805DRD074K7L"
-			(at 92.71 248.92 0)
+			(at 77.47 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27986,7 +28247,7 @@
 			)
 		)
 		(property "MouserLink" "https://gr.mouser.com/ProductDetail/YAGEO/RT0805DRD074K7L?qs=4CyHz7GXqSgskZKNIL1%252BXQ%3D%3D"
-			(at 92.71 248.92 0)
+			(at 77.47 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28149,6 +28410,152 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Speaker Amp Lib:Molex_430450227")
+		(at 165.1 246.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e1e7098-0570-4580-aebc-0af0da010b8f")
+		(property "Reference" "J6"
+			(at 156.845 231.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "Molex_430450227"
+			(at 156.845 233.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Speaker Amp Lib:430450227_MOLEX"
+			(at 165.1 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "430450227"
+			(at 165.1 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cfc41658-cb11-45ae-8554-e27d2bb89eab")
+		)
+		(pin "1"
+			(uuid "72b15938-8a50-4b29-9496-0f7fc97586ef")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 273.05 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e65ab0a-b2b9-4100-8de0-5bac74a9168d")
+		(property "Reference" "L3"
+			(at 273.05 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22u"
+			(at 273.05 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-M-Typ-S_Handsoldering"
+			(at 273.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7447773220.pdf"
+			(at 273.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wurth Elektronik - 7447773220"
+			(at 273.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/Wurth-Elektronik/7447773220?qs=u16ybLDytRbRnjEx%252BwZuJw%3D%3D"
+			(at 273.05 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb74bb13-73c7-4514-8496-0ba800617b3e")
+		)
+		(pin "2"
+			(uuid "e0dd76d3-0a1a-4012-b45f-12982d19dfd4")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -28687,7 +29094,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 142.24 44.45 270)
+		(at 149.86 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28695,7 +29102,7 @@
 		(dnp no)
 		(uuid "b05f9973-2d32-41be-8215-6273dd24c934")
 		(property "Reference" "#PWR030"
-			(at 138.43 44.45 0)
+			(at 146.05 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28704,7 +29111,7 @@
 			)
 		)
 		(property "Value" "PVDD"
-			(at 148.59 44.45 90)
+			(at 156.21 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28712,7 +29119,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 44.45 0)
+			(at 149.86 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28721,7 +29128,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 44.45 0)
+			(at 149.86 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28730,7 +29137,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 142.24 44.45 0)
+			(at 149.86 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28998,7 +29405,7 @@
 	)
 	(symbol
 		(lib_id "Speaker Amp Lib:Molex_1053101106")
-		(at 81.28 231.14 0)
+		(at 66.04 229.87 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29008,7 +29415,7 @@
 		(fields_autoplaced yes)
 		(uuid "b561f3ab-fdee-481f-928a-07fd74efefcd")
 		(property "Reference" "J5"
-			(at 67.31 236.2199 0)
+			(at 52.07 234.9499 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -29017,7 +29424,7 @@
 			)
 		)
 		(property "Value" "Molex_1053101106"
-			(at 67.31 238.7599 0)
+			(at 52.07 237.4899 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -29026,7 +29433,7 @@
 			)
 		)
 		(property "Footprint" "Speaker Amp Lib:Molex_1053101106"
-			(at 82.296 247.904 0)
+			(at 67.056 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29036,7 +29443,7 @@
 			)
 		)
 		(property "Datasheet" "1053101106"
-			(at 81.28 231.14 0)
+			(at 66.04 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29046,7 +29453,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 231.14 0)
+			(at 66.04 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29456,7 +29863,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 119.38 248.92 0)
+		(at 104.14 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29464,7 +29871,7 @@
 		(dnp no)
 		(uuid "b93bf0af-18d9-4f20-9363-d694b763acf5")
 		(property "Reference" "R11"
-			(at 117.602 247.904 0)
+			(at 102.362 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29473,7 +29880,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 117.602 250.444 0)
+			(at 102.362 249.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29482,7 +29889,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 117.602 248.92 90)
+			(at 102.362 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29491,7 +29898,7 @@
 			)
 		)
 		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
-			(at 119.38 248.92 0)
+			(at 104.14 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29500,7 +29907,7 @@
 			)
 		)
 		(property "Description" "YAGEO - RT0805DRD074K7L"
-			(at 119.38 248.92 0)
+			(at 104.14 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29509,7 +29916,7 @@
 			)
 		)
 		(property "MouserLink" "https://gr.mouser.com/ProductDetail/YAGEO/RT0805DRD074K7L?qs=4CyHz7GXqSgskZKNIL1%252BXQ%3D%3D"
-			(at 119.38 248.92 0)
+			(at 104.14 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29635,7 +30042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-LS_Handsoldering"
+		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-M-Typ-S_Handsoldering"
 			(at 271.78 39.37 0)
 			(effects
 				(font
@@ -29644,7 +30051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7447707220.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7447773220.pdf"
 			(at 271.78 39.37 0)
 			(effects
 				(font
@@ -29653,7 +30060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Wurth Elektronik - 7447707220"
+		(property "Description" "Wurth Elektronik - 7447773220"
 			(at 271.78 39.37 0)
 			(effects
 				(font
@@ -29662,7 +30069,7 @@
 				(hide yes)
 			)
 		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/Wurth-Elektronik/7447707220?qs=DPoM0jnrROU%252BcE0mb2gCYA%3D%3D"
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/Wurth-Elektronik/7447773220?qs=u16ybLDytRbRnjEx%252BwZuJw%3D%3D"
 			(at 271.78 39.37 90)
 			(effects
 				(font
@@ -30452,15 +30859,15 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 273.05 121.92 90)
+		(at 273.05 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d52f80b1-81f4-42d7-b499-0b7c264acf93")
-		(property "Reference" "L3"
-			(at 273.05 116.84 90)
+		(uuid "d44da649-5c2f-45fa-bf0c-9423919587fa")
+		(property "Reference" "L4"
+			(at 273.05 139.446 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30468,24 +30875,15 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 273.05 119.38 90)
+			(at 273.05 136.906 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-LS_Handsoldering"
-			(at 273.05 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7447707220.pdf"
-			(at 273.05 121.92 0)
+		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-M-Typ-S_Handsoldering"
+			(at 273.05 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30493,8 +30891,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Wurth Elektronik - 7447707220"
-			(at 273.05 121.92 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7447773220.pdf"
+			(at 273.05 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30502,8 +30900,17 @@
 				(hide yes)
 			)
 		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/Wurth-Elektronik/7447707220?qs=DPoM0jnrROU%252BcE0mb2gCYA%3D%3D"
-			(at 273.05 121.92 90)
+		(property "Description" "Wurth Elektronik - 7447773220"
+			(at 273.05 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/Wurth-Elektronik/7447773220?qs=u16ybLDytRbRnjEx%252BwZuJw%3D%3D"
+			(at 273.05 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30512,15 +30919,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "bf49c6c7-85ed-4233-b088-15a90e48d556")
+			(uuid "37145ebb-ed94-498d-8c69-7d1ec607d879")
 		)
 		(pin "2"
-			(uuid "fa0d3d02-bf17-4fb0-824b-e183cc9d3553")
+			(uuid "a1171fdd-c7a7-4193-b5c0-7d48c7509f17")
 		)
 		(instances
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
-					(reference "L3")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -30594,7 +31001,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 101.6 248.92 0)
+		(at 86.36 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30602,7 +31009,7 @@
 		(dnp no)
 		(uuid "d941d2a5-d22c-4082-901a-65bc7fa14856")
 		(property "Reference" "R13"
-			(at 99.822 247.904 0)
+			(at 84.582 246.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30611,7 +31018,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 99.822 250.444 0)
+			(at 84.582 249.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30620,7 +31027,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 99.822 248.92 90)
+			(at 84.582 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30629,7 +31036,7 @@
 			)
 		)
 		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
-			(at 101.6 248.92 0)
+			(at 86.36 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30638,7 +31045,7 @@
 			)
 		)
 		(property "Description" "YAGEO - RT0805DRD074K7L"
-			(at 101.6 248.92 0)
+			(at 86.36 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30647,7 +31054,7 @@
 			)
 		)
 		(property "MouserLink" "https://gr.mouser.com/ProductDetail/YAGEO/RT0805DRD074K7L?qs=4CyHz7GXqSgskZKNIL1%252BXQ%3D%3D"
-			(at 101.6 248.92 0)
+			(at 86.36 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31396,7 +31803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PVDD"
+		(property "Value" "PVDD2"
 			(at 261.62 141.478 0)
 			(effects
 				(font
@@ -31674,7 +32081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-LS_Handsoldering"
+		(property "Footprint" "Speaker Amp Lib:L_Wuerth_WE-PDF_Handsoldering_7mm_apart"
 			(at 304.8 203.2 0)
 			(effects
 				(font
@@ -31683,7 +32090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74477010.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7447714100.pdf"
 			(at 304.8 203.2 0)
 			(effects
 				(font
@@ -31692,7 +32099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Wurth Elektronik - 74477010"
+		(property "Description" "Wurth Elektronik - 7447714100"
 			(at 304.8 203.2 0)
 			(effects
 				(font
@@ -31701,7 +32108,7 @@
 				(hide yes)
 			)
 		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/Wurth-Elektronik/74477010?qs=E%2F%2FhvbtCqpN9eEwYoxClfg%3D%3D"
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/Wurth-Elektronik/7447714100?qs=XJfXErqHgA4E7sDRWCHdYQ%3D%3D"
 			(at 304.8 203.2 90)
 			(effects
 				(font
@@ -31935,82 +32342,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 304.8 213.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7747512-4fea-471b-be1a-71d0643b73c7")
-		(property "Reference" "L7"
-			(at 304.8 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10u"
-			(at 304.8 218.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-LS_Handsoldering"
-			(at 304.8 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74477010.pdf"
-			(at 304.8 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Wurth Elektronik - 74477010"
-			(at 304.8 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/Wurth-Elektronik/74477010?qs=E%2F%2FhvbtCqpN9eEwYoxClfg%3D%3D"
-			(at 304.8 213.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf5b4c82-df88-4e06-973c-c12d7e803c34")
-		)
-		(pin "2"
-			(uuid "12b5910f-e23b-43bb-92c5-0353eb6abd12")
-		)
-		(instances
-			(project "speaker_amp2"
-				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
-					(reference "L7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 114.3 96.52 0)
 		(unit 1)
@@ -32222,7 +32553,7 @@
 	)
 	(symbol
 		(lib_id "Speaker Amp Lib:Molex_430450227")
-		(at 129.54 52.07 180)
+		(at 137.16 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32231,7 +32562,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdfbfeee-182d-43b1-81f5-0affed3ada57")
 		(property "Reference" "J4"
-			(at 121.285 36.83 0)
+			(at 128.905 36.83 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -32239,7 +32570,7 @@
 			)
 		)
 		(property "Value" "Molex_430450227"
-			(at 121.285 39.37 0)
+			(at 128.905 39.37 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -32247,7 +32578,7 @@
 			)
 		)
 		(property "Footprint" "Speaker Amp Lib:430450227_MOLEX"
-			(at 129.54 52.07 0)
+			(at 137.16 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32257,7 +32588,7 @@
 			)
 		)
 		(property "Datasheet" "430450227"
-			(at 129.54 52.07 0)
+			(at 137.16 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32267,7 +32598,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 52.07 0)
+			(at 137.16 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32309,7 +32640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PVDD"
+		(property "Value" "PVDD2"
 			(at 261.62 277.622 0)
 			(effects
 				(font
