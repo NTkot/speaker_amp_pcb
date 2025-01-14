@@ -7428,6 +7428,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 144.78) (xy 293.37 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ccd2b78-e1f6-48de-b7f5-1e9d94cd9291")
+	)
+	(wire
+		(pts
 			(xy 184.15 57.15) (xy 184.15 60.96)
 		)
 		(stroke
@@ -23959,6 +23969,85 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 293.37 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "027339af-8cd1-4582-a9a5-5ffb2a093c4f")
+		(property "Reference" "C23"
+			(at 297.18 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.047u"
+			(at 297.18 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 294.3352 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/440/e_WIMA_SMD_PET-1139826.pdf"
+			(at 293.37 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WIMA - SMDTD02470QA00KP00"
+			(at 293.37 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/WIMA/SMDTD02470QA00KP00?qs=HY1Oqu7CRgokaCT1A9awRA%3D%3D"
+			(at 293.37 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9392a7ba-7a23-4513-9dde-9989d81ebfd3")
+		)
+		(pin "2"
+			(uuid "943b8a06-13dd-4d51-beba-eac92711c290")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 220.98 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24682,6 +24771,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 243.84 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19e6170c-222a-453b-93a8-815fea8a3633")
+		(property "Reference" "C4"
+			(at 243.84 124.714 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.47u"
+			(at 243.84 127.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 247.65 129.8448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/396/ML_mlcc_all_e-3369844.pdf"
+			(at 243.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TAIYO YUDEN - MLASU168SB7474KTNB25"
+			(at 243.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/TAIYO-YUDEN/MLASU168SB7474KTNB25?qs=tlsG%2FOw5FFiiTzSymTL2VQ%3D%3D"
+			(at 243.84 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d8f0432-04b1-45d4-9316-842bf786a9e0")
+		)
+		(pin "1"
+			(uuid "ce8b52b6-afd4-44a1-b56b-9405c19a67aa")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 35.56 48.26 90)
 		(unit 1)
@@ -24894,85 +25059,6 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 289.56 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "305f1e0a-adbd-4f18-8f97-594ea4f43476")
-		(property "Reference" "C20"
-			(at 293.37 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.047u"
-			(at 293.37 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4"
-			(at 290.5252 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_F3034_R76-3317004.pdf"
-			(at 289.56 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "YAGEO - R76MF24705050J"
-			(at 289.56 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/R76MF24705050J?qs=pUKx8fyJudD0iBKf0S6rmA%3D%3D"
-			(at 289.56 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05dd05e2-e3b7-4413-9654-fe74f6429976")
-		)
-		(pin "2"
-			(uuid "0ba835a6-0633-4bfc-b0f2-fbd96b79e611")
-		)
-		(instances
-			(project ""
-				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
-					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -25344,7 +25430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W5.0mm_P15.00mm_FKS3_FKP3"
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
 			(at 327.9648 194.31 0)
 			(effects
 				(font
@@ -25353,7 +25439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_F3106_R75-3316943.pdf"
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/440/e_WIMA_SMD_PET-1139826.pdf"
 			(at 328.93 198.12 0)
 			(effects
 				(font
@@ -25362,7 +25448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "KEMET - R75MI3100AA30K"
+		(property "Description" "WIMA - SMDTD03100QA00KP00"
 			(at 328.93 198.12 0)
 			(effects
 				(font
@@ -25371,7 +25457,7 @@
 				(hide yes)
 			)
 		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/R75MI3100AA30K?qs=Jv4FAWB%252B0HbMxbTEx6hisA%3D%3D"
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/WIMA/SMDTD03100QA00KP00?qs=K1lkoHpmGTo8%2FcavH5%2FiOw%3D%3D"
 			(at 328.93 198.12 0)
 			(effects
 				(font
@@ -25456,83 +25542,6 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 270.51 172.72 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ffb4299-4115-4cd3-827b-d23d1feeb10f")
-		(property "Reference" "C35"
-			(at 275.59 171.704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.47u"
-			(at 275.59 174.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 269.5448 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_C1090_X7R_ESD-3316292.pdf"
-			(at 270.51 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "KEMET - C0805C474J5RECTU"
-			(at 270.51 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/C0805C474J5RECTU?qs=55YtniHzbhAjL00%252BB0sGuQ%3D%3D"
-			(at 270.51 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "04862d7c-04d9-4e6b-8553-2cfe2183d5ea")
-		)
-		(pin "1"
-			(uuid "70169505-a12f-4834-855d-15f627f63cd6")
-		)
-		(instances
-			(project "speaker_amp2"
-				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
-					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -25991,7 +26000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3"
+		(property "Footprint" "Speaker Amp Lib:C_2824"
 			(at 280.3652 49.53 0)
 			(effects
 				(font
@@ -26000,7 +26009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_F3121_R75H-3316645.pdf"
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/440/e_WIMA_SMD_PET-1139826.pdf"
 			(at 279.4 45.72 0)
 			(effects
 				(font
@@ -26009,7 +26018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "YAGEO - R75MI333050H4J"
+		(property "Description" "WIMA - SMD2824-.33/100/10T"
 			(at 279.4 45.72 0)
 			(effects
 				(font
@@ -26018,7 +26027,7 @@
 				(hide yes)
 			)
 		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/R75MI333050H4J?qs=vmHwEFxEFR%252BRyzotvjWhaw%3D%3D"
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/WIMA/SMD2824-.33-100-10T?qs=iA0XJIPtYnFuO8F%252BGwF6%2Fw%3D%3D"
 			(at 279.4 45.72 0)
 			(effects
 				(font
@@ -26274,7 +26283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 247.65 42.2148 0)
 			(effects
 				(font
@@ -26283,7 +26292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_C1090_X7R_ESD-3316292.pdf"
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/396/ML_mlcc_all_e-3369844.pdf"
 			(at 243.84 43.18 0)
 			(effects
 				(font
@@ -26292,7 +26301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "KEMET - C0805C474J5RECTU"
+		(property "Description" "TAIYO YUDEN - MLASU168SB7474KTNB25"
 			(at 243.84 43.18 0)
 			(effects
 				(font
@@ -26301,7 +26310,7 @@
 				(hide yes)
 			)
 		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/C0805C474J5RECTU?qs=55YtniHzbhAjL00%252BB0sGuQ%3D%3D"
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/TAIYO-YUDEN/MLASU168SB7474KTNB25?qs=tlsG%2FOw5FFiiTzSymTL2VQ%3D%3D"
 			(at 243.84 43.18 90)
 			(effects
 				(font
@@ -26394,15 +26403,94 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 254 55.88 90)
+		(at 289.56 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6138e8e9-13f5-48d8-b85d-c5112cbf5462")
-		(property "Reference" "C2"
-			(at 254 59.944 90)
+		(fields_autoplaced yes)
+		(uuid "51e0315d-8589-4573-9b0e-d3c5f10ec847")
+		(property "Reference" "C21"
+			(at 293.37 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.047u"
+			(at 293.37 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 290.5252 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/440/e_WIMA_SMD_PET-1139826.pdf"
+			(at 289.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WIMA - SMDTD02470QA00KP00"
+			(at 289.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/WIMA/SMDTD02470QA00KP00?qs=HY1Oqu7CRgokaCT1A9awRA%3D%3D"
+			(at 289.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2106eaf6-5273-40fe-85bb-1c85234b7b92")
+		)
+		(pin "2"
+			(uuid "6af495cb-f969-42fc-a8cc-ef3747f4eadb")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 254 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c5bbe59-403d-46a2-a495-56284a0fb3ce")
+		(property "Reference" "C3"
+			(at 254 112.014 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26410,24 +26498,15 @@
 			)
 		)
 		(property "Value" "0.47u"
-			(at 254 62.484 90)
+			(at 254 114.554 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 257.81 54.9148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_C1090_X7R_ESD-3316292.pdf"
-			(at 254 55.88 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 257.81 117.1448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26435,8 +26514,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "KEMET - C0805C474J5RECTU"
-			(at 254 55.88 0)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/396/ML_mlcc_all_e-3369844.pdf"
+			(at 254 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26444,8 +26523,17 @@
 				(hide yes)
 			)
 		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/C0805C474J5RECTU?qs=55YtniHzbhAjL00%252BB0sGuQ%3D%3D"
-			(at 254 55.88 90)
+		(property "Description" "TAIYO YUDEN - MLASU168SB7474KTNB25"
+			(at 254 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/TAIYO-YUDEN/MLASU168SB7474KTNB25?qs=tlsG%2FOw5FFiiTzSymTL2VQ%3D%3D"
+			(at 254 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26454,15 +26542,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c99a17dc-8e5c-4810-9134-d3acf4becfd7")
+			(uuid "bb116b4a-ec3c-474b-9996-bfe3d36372c4")
 		)
 		(pin "1"
-			(uuid "dd35adc9-f91b-4796-8c9b-4104ac364da3")
+			(uuid "aaa3ebdf-0710-4c4c-94c2-c824fe66fbd2")
 		)
 		(instances
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -26610,7 +26698,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6487e4ff-9447-4e0e-9cda-cb7e1219c77a")
+		(uuid "66c46764-7a57-4d0e-9fa5-fbbdad749863")
 		(property "Reference" "C19"
 			(at 284.48 126.9999 0)
 			(effects
@@ -26629,7 +26717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3"
+		(property "Footprint" "Speaker Amp Lib:C_2824"
 			(at 281.6352 132.08 0)
 			(effects
 				(font
@@ -26638,7 +26726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_F3121_R75H-3316645.pdf"
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/440/e_WIMA_SMD_PET-1139826.pdf"
 			(at 280.67 128.27 0)
 			(effects
 				(font
@@ -26647,7 +26735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "YAGEO - R75MI333050H4J"
+		(property "Description" "WIMA - SMD2824-.33/100/10T"
 			(at 280.67 128.27 0)
 			(effects
 				(font
@@ -26656,7 +26744,7 @@
 				(hide yes)
 			)
 		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/R75MI333050H4J?qs=vmHwEFxEFR%252BRyzotvjWhaw%3D%3D"
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/WIMA/SMD2824-.33-100-10T?qs=iA0XJIPtYnFuO8F%252BGwF6%2Fw%3D%3D"
 			(at 280.67 128.27 0)
 			(effects
 				(font
@@ -26666,10 +26754,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "81b60ee4-2a98-44de-85ea-2fcf3aee650d")
+			(uuid "e9a7537e-c1e8-4e15-bbbb-3434c6a5c27b")
 		)
 		(pin "1"
-			(uuid "593000d4-9711-40f6-b20e-281f6926e867")
+			(uuid "91b7b8f8-e513-4b1f-868f-350718059524")
 		)
 		(instances
 			(project "speaker_amp2"
@@ -27196,6 +27284,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 281.94 245.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74b47933-e7a0-4f7c-976e-ab1d93227125")
+		(property "Reference" "C36"
+			(at 286.766 244.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.47u"
+			(at 286.766 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 280.9748 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/396/ML_mlcc_all_e-3369844.pdf"
+			(at 281.94 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TAIYO YUDEN - MLASU168SB7474KTNB25"
+			(at 281.94 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/TAIYO-YUDEN/MLASU168SB7474KTNB25?qs=tlsG%2FOw5FFiiTzSymTL2VQ%3D%3D"
+			(at 281.94 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c80db866-bd1b-4feb-baaa-293c7e1f3b68")
+		)
+		(pin "1"
+			(uuid "62f07967-8707-49da-9e8d-8d23a6289893")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 251.46 146.05 0)
 		(mirror x)
@@ -27387,6 +27551,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 281.94 172.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ba94796-6dfd-4e97-a27b-9d768e93a06e")
+		(property "Reference" "C34"
+			(at 286.766 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.47u"
+			(at 286.766 174.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 280.9748 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/396/ML_mlcc_all_e-3369844.pdf"
+			(at 281.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TAIYO YUDEN - MLASU168SB7474KTNB25"
+			(at 281.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/TAIYO-YUDEN/MLASU168SB7474KTNB25?qs=tlsG%2FOw5FFiiTzSymTL2VQ%3D%3D"
+			(at 281.94 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4305533c-20d0-4c61-af87-6799bb8e6593")
+		)
+		(pin "1"
+			(uuid "5f6cdb6a-a4b7-4b56-9e37-ac917e59a6c0")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 68.58 247.65 0)
 		(unit 1)
@@ -27525,6 +27765,82 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 270.51 172.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "813722d6-a20d-4c10-8d25-a45bb8aa6ae1")
+		(property "Reference" "C35"
+			(at 275.336 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.47u"
+			(at 275.336 174.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 269.5448 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/396/ML_mlcc_all_e-3369844.pdf"
+			(at 270.51 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TAIYO YUDEN - MLASU168SB7474KTNB25"
+			(at 270.51 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/TAIYO-YUDEN/MLASU168SB7474KTNB25?qs=tlsG%2FOw5FFiiTzSymTL2VQ%3D%3D"
+			(at 270.51 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bec8535d-71f5-4926-8f90-e1f1618d0a6e")
+		)
+		(pin "1"
+			(uuid "63d7a64c-0c91-43b0-a0a0-20bb87937592")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -27829,85 +28145,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 293.37 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "933ab6b7-8052-40c4-b135-f44360202835")
-		(property "Reference" "C23"
-			(at 297.18 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.047u"
-			(at 297.18 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4"
-			(at 294.3352 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_F3034_R76-3317004.pdf"
-			(at 293.37 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "YAGEO - R76MF24705050J"
-			(at 293.37 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/R76MF24705050J?qs=pUKx8fyJudD0iBKf0S6rmA%3D%3D"
-			(at 293.37 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc7b8e66-de70-48a4-bcab-72dc71ec3457")
-		)
-		(pin "2"
-			(uuid "f53f6c5e-f59e-447c-bc58-1f9715fa4890")
-		)
-		(instances
-			(project "speaker_amp2"
-				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 132.08 180.34 180)
 		(unit 1)
@@ -28117,16 +28354,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 281.94 245.11 0)
-		(mirror y)
+		(at 254 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9b1d4908-af91-4bc2-86bd-38aa104f9114")
-		(property "Reference" "C36"
-			(at 287.274 244.094 0)
+		(uuid "973f330b-4312-4d9f-b51f-6a3a30b0a8d2")
+		(property "Reference" "C2"
+			(at 254 59.436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28134,24 +28370,15 @@
 			)
 		)
 		(property "Value" "0.47u"
-			(at 287.274 246.634 0)
+			(at 254 61.976 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 280.9748 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_C1090_X7R_ESD-3316292.pdf"
-			(at 281.94 245.11 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 257.81 54.9148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28159,8 +28386,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "KEMET - C0805C474J5RECTU"
-			(at 281.94 245.11 0)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/396/ML_mlcc_all_e-3369844.pdf"
+			(at 254 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28168,8 +28395,17 @@
 				(hide yes)
 			)
 		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/C0805C474J5RECTU?qs=55YtniHzbhAjL00%252BB0sGuQ%3D%3D"
-			(at 281.94 245.11 90)
+		(property "Description" "TAIYO YUDEN - MLASU168SB7474KTNB25"
+			(at 254 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/TAIYO-YUDEN/MLASU168SB7474KTNB25?qs=tlsG%2FOw5FFiiTzSymTL2VQ%3D%3D"
+			(at 254 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28178,15 +28414,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "83b1a740-2c40-423f-a4d8-b5273694d740")
+			(uuid "f7a853e2-5561-44e7-ac5b-b3d3f0cc01e1")
 		)
 		(pin "1"
-			(uuid "2847cf35-6f80-46c6-a8b2-90699561dc11")
+			(uuid "d6ea95f9-9f3f-4f6d-8e11-ad8ba923c9d0")
 		)
 		(instances
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
-					(reference "C36")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -28271,87 +28507,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 289.56 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c507b1b-90c7-4fae-ac1b-269ddadd01b3")
-		(property "Reference" "C21"
-			(at 293.37 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.047u"
-			(at 293.37 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4"
-			(at 290.5252 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_F3034_R76-3317004.pdf"
-			(at 289.56 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "YAGEO - R76MF24705050J"
-			(at 289.56 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/R76MF24705050J?qs=pUKx8fyJudD0iBKf0S6rmA%3D%3D"
-			(at 289.56 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16840380-e083-4375-9547-f0ddd0df8f00")
-		)
-		(pin "2"
-			(uuid "de9ea558-b0ab-43c7-bb6a-ddfa37a2b4a4")
-		)
-		(instances
-			(project "speaker_amp2"
-				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 293.37 143.51 0)
+		(at 293.37 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28360,7 +28517,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e1e47d8-a734-48d7-8eb4-47d59356c600")
 		(property "Reference" "#PWR016"
-			(at 293.37 149.86 0)
+			(at 293.37 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28369,7 +28526,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 293.37 148.59 0)
+			(at 293.37 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28377,7 +28534,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 293.37 143.51 0)
+			(at 293.37 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28386,7 +28543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 293.37 143.51 0)
+			(at 293.37 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28395,7 +28552,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 293.37 143.51 0)
+			(at 293.37 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28743,7 +28900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Speaker Amp Lib:C_Rect_L18.0mm_W13.0mm_P15.00mm_FKS3_FKP3"
+		(property "Footprint" "Speaker Amp Lib:C_2824"
 			(at 317.1952 212.09 0)
 			(effects
 				(font
@@ -28752,7 +28909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_F3121_R75H-3316645.pdf"
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/440/e_WIMA_SMD_PPS-1139945.pdf"
 			(at 316.23 208.28 0)
 			(effects
 				(font
@@ -28761,7 +28918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "KEMET - R75II368050H8J"
+		(property "Description" "WIMA - SMDIC03680TB00KQ00"
 			(at 316.23 208.28 0)
 			(effects
 				(font
@@ -28770,7 +28927,7 @@
 				(hide yes)
 			)
 		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/R75II368050H8J?qs=vmHwEFxEFR%252B%2F5Vne3cjr%2Fw%3D%3D"
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/WIMA/SMDIC03680TB00KQ00?qs=KSac9zHBIo3VvPUf5ibplQ%3D%3D"
 			(at 316.23 208.28 0)
 			(effects
 				(font
@@ -29158,6 +29315,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 270.51 245.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3326bd2-121f-41dd-a865-fda45e66171a")
+		(property "Reference" "C37"
+			(at 275.336 244.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.47u"
+			(at 275.336 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 269.5448 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/396/ML_mlcc_all_e-3369844.pdf"
+			(at 270.51 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TAIYO YUDEN - MLASU168SB7474KTNB25"
+			(at 270.51 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/TAIYO-YUDEN/MLASU168SB7474KTNB25?qs=tlsG%2FOw5FFiiTzSymTL2VQ%3D%3D"
+			(at 270.51 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2b62e14b-a10e-47ac-85af-b5e2b40cad19")
+		)
+		(pin "1"
+			(uuid "4b1953a4-3d76-46d9-ba55-3af97d05654f")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 132.08 96.52 0)
 		(unit 1)
@@ -29483,83 +29716,6 @@
 			(project ""
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 270.51 245.11 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5eb6cf5-ea00-448e-ad5e-9e18deaec10b")
-		(property "Reference" "C37"
-			(at 275.59 244.094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.47u"
-			(at 275.59 246.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 269.5448 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_C1090_X7R_ESD-3316292.pdf"
-			(at 270.51 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "KEMET - C0805C474J5RECTU"
-			(at 270.51 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/C0805C474J5RECTU?qs=55YtniHzbhAjL00%252BB0sGuQ%3D%3D"
-			(at 270.51 245.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c68c1eef-b800-43a2-91e3-5b86b927fdc3")
-		)
-		(pin "1"
-			(uuid "4502389f-cdad-4de6-b1e5-6d0006126de6")
-		)
-		(instances
-			(project "speaker_amp2"
-				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
-					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -30421,82 +30577,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 243.84 130.81 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5b7456a-2fba-4e4c-bfbc-15733adc6224")
-		(property "Reference" "C4"
-			(at 243.84 124.206 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.47u"
-			(at 243.84 126.746 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 247.65 129.8448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_C1090_X7R_ESD-3316292.pdf"
-			(at 243.84 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "KEMET - C0805C474J5RECTU"
-			(at 243.84 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/C0805C474J5RECTU?qs=55YtniHzbhAjL00%252BB0sGuQ%3D%3D"
-			(at 243.84 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f120187e-2d6c-4758-8a68-5721d14b94ed")
-		)
-		(pin "1"
-			(uuid "a68c6c25-d012-496e-8bd6-8635b1cbabee")
-		)
-		(instances
-			(project "speaker_amp2"
-				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 292.1 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30523,7 +30603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4"
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
 			(at 293.0652 38.1 0)
 			(effects
 				(font
@@ -30532,7 +30612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_F3034_R76-3317004.pdf"
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/440/e_WIMA_SMD_PET-1139826.pdf"
 			(at 292.1 34.29 0)
 			(effects
 				(font
@@ -30541,7 +30621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "YAGEO - R76MF24705050J"
+		(property "Description" "WIMA - SMDTD02470QA00KP00"
 			(at 292.1 34.29 0)
 			(effects
 				(font
@@ -30550,7 +30630,7 @@
 				(hide yes)
 			)
 		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/R76MF24705050J?qs=pUKx8fyJudD0iBKf0S6rmA%3D%3D"
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/WIMA/SMDTD02470QA00KP00?qs=HY1Oqu7CRgokaCT1A9awRA%3D%3D"
 			(at 292.1 34.29 0)
 			(effects
 				(font
@@ -30713,6 +30793,84 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 328.93 218.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d26ad069-6720-4bb4-a4e3-e016b2c28e28")
+		(property "Reference" "C39"
+			(at 336.296 217.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 336.296 219.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 327.9648 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/440/e_WIMA_SMD_PET-1139826.pdf"
+			(at 328.93 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WIMA - SMDTD03100QA00KP00"
+			(at 328.93 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/WIMA/SMDTD03100QA00KP00?qs=K1lkoHpmGTo8%2FcavH5%2FiOw%3D%3D"
+			(at 328.93 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7aac2a6b-bcca-4f64-916b-8431d5557c08")
+		)
+		(pin "1"
+			(uuid "5ad7c19a-15c2-4a27-a14e-d555c560ccc3")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -31335,92 +31493,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 254 118.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df6410cd-b669-4031-a3dd-589f07b2da57")
-		(property "Reference" "C3"
-			(at 253.746 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.47u"
-			(at 253.746 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 257.81 117.1448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_C1090_X7R_ESD-3316292.pdf"
-			(at 254 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "KEMET - C0805C474J5RECTU"
-			(at 254 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/C0805C474J5RECTU?qs=55YtniHzbhAjL00%252BB0sGuQ%3D%3D"
-			(at 254 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "96b175ef-b35f-46e9-a67a-7fe8e1cabb78")
-		)
-		(pin "1"
-			(uuid "741f3a75-b6be-4767-90b1-1a26c39aac1f")
-		)
-		(instances
-			(project "speaker_amp2"
-				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 328.93 218.44 0)
+		(at 289.56 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dfd216d6-1f82-401e-b91b-1a7a78174263")
-		(property "Reference" "C39"
-			(at 332.74 217.1699 0)
+		(uuid "df50a614-7c00-4304-b8e8-3b0ebcbe1c81")
+		(property "Reference" "C20"
+			(at 293.37 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31428,8 +31510,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
-			(at 332.74 219.7099 0)
+		(property "Value" "0.047u"
+			(at 293.37 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31437,8 +31519,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W5.0mm_P15.00mm_FKS3_FKP3"
-			(at 329.8952 222.25 0)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 290.5252 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31446,8 +31528,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_F3106_R75-3316943.pdf"
-			(at 328.93 218.44 0)
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/440/e_WIMA_SMD_PET-1139826.pdf"
+			(at 289.56 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31455,8 +31537,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "KEMET - R75MI3100AA30K"
-			(at 328.93 218.44 0)
+		(property "Description" "WIMA - SMDTD02470QA00KP00"
+			(at 289.56 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31464,25 +31546,25 @@
 				(hide yes)
 			)
 		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/R75MI3100AA30K?qs=Jv4FAWB%252B0HbMxbTEx6hisA%3D%3D"
-			(at 328.93 218.44 0)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/WIMA/SMDTD02470QA00KP00?qs=HY1Oqu7CRgokaCT1A9awRA%3D%3D"
+			(at 289.56 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "d77a53d8-b527-4575-988a-cb33722a8f3c")
 		)
 		(pin "1"
-			(uuid "caf8c488-0ff4-4a63-9674-e14e2c26c979")
+			(uuid "35ad8550-c52b-4aac-b3a5-697b9edb1ddd")
+		)
+		(pin "2"
+			(uuid "6d58efd5-31c9-44b7-80b4-12cd2e386cc3")
 		)
 		(instances
-			(project ""
+			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
-					(reference "C39")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -32194,83 +32276,6 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 281.94 172.72 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f57384cf-10dd-4dbf-9077-4c647e5b384a")
-		(property "Reference" "C34"
-			(at 287.02 171.704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.47u"
-			(at 287.02 174.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 280.9748 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/KEM_C1090_X7R_ESD-3316292.pdf"
-			(at 281.94 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "KEMET - C0805C474J5RECTU"
-			(at 281.94 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KEMET/C0805C474J5RECTU?qs=55YtniHzbhAjL00%252BB0sGuQ%3D%3D"
-			(at 281.94 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a03e0085-6283-437e-b799-d641a55e19fb")
-		)
-		(pin "1"
-			(uuid "551a723c-6f10-49ed-8a72-c459b816beff")
-		)
-		(instances
-			(project "speaker_amp2"
-				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
-					(reference "C34")
 					(unit 1)
 				)
 			)
