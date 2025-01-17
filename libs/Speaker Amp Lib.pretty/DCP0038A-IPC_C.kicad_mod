@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "TAS5822MDCPR ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 -6.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "0502a17f-31e6-48b4-ad6c-6d1b9545f7fc")
@@ -159,18 +159,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "3d47c307-63d0-4f4d-9848-861faa62cfb8")
-	)
-	(fp_text user "Designator6"
-		(at 0 -6.5 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "e4d17bc8-78a9-4a3e-8132-9b5c284f4ca6")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)

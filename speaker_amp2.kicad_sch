@@ -23916,7 +23916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-M-Typ-S_Handsoldering"
+		(property "Footprint" "Speaker Amp Lib:WE_7447773220"
 			(at 271.78 52.07 0)
 			(effects
 				(font
@@ -28667,7 +28667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-M-Typ-S_Handsoldering"
+		(property "Footprint" "Speaker Amp Lib:WE_7447773220"
 			(at 273.05 121.92 0)
 			(effects
 				(font
@@ -29481,7 +29481,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Speaker Amp Lib:DCP0038A-IPC_B"
+		(property "Footprint" "Speaker Amp Lib:DCP0038A-IPC_C"
 			(at 243.84 60.96 0)
 			(effects
 				(font
@@ -30198,7 +30198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-M-Typ-S_Handsoldering"
+		(property "Footprint" "Speaker Amp Lib:WE_7447773220"
 			(at 271.78 39.37 0)
 			(effects
 				(font
@@ -31040,7 +31040,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-M-Typ-S_Handsoldering"
+		(property "Footprint" "Speaker Amp Lib:WE_7447773220"
 			(at 273.05 134.62 0)
 			(effects
 				(font
@@ -31336,7 +31336,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Speaker Amp Lib:DCP0038A-IPC_B"
+		(property "Footprint" "Speaker Amp Lib:DCP0038A-IPC_C"
 			(at 278.13 184.15 0)
 			(effects
 				(font
