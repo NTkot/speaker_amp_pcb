@@ -589,6 +589,175 @@
 				)
 			)
 		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -701,6 +870,108 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4847,7 +5118,7 @@
 		(uuid "1a4b5f75-c02d-4753-9a40-47724ed74add")
 	)
 	(junction
-		(at 132.08 156.21)
+		(at 125.73 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1dd7865e-eb0d-4d3b-85e6-4c09f1988416")
@@ -5051,7 +5322,7 @@
 		(uuid "8947fe40-7145-4328-8a37-284cf7ceff17")
 	)
 	(junction
-		(at 114.3 140.97)
+		(at 107.95 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a51dfc9-5f37-41b0-beef-3bd9eda8d25d")
@@ -5069,13 +5340,13 @@
 		(uuid "92a5f55e-1762-4999-b5d3-819240196826")
 	)
 	(junction
-		(at 123.19 156.21)
+		(at 116.84 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92aca810-3adf-4c2a-b9cd-b60d7c39fc44")
 	)
 	(junction
-		(at 105.41 130.81)
+		(at 99.06 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "965c6bae-a858-49e6-86e2-4f98688b8f35")
@@ -5111,7 +5382,7 @@
 		(uuid "ab65a54c-53d3-45ea-a6a1-093b52f2e3a7")
 	)
 	(junction
-		(at 114.3 151.13)
+		(at 107.95 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abcf15b5-5990-4627-a787-894a4df31250")
@@ -5135,7 +5406,7 @@
 		(uuid "bc63a19c-8589-4d4c-ac5b-148d3697a350")
 	)
 	(junction
-		(at 96.52 110.49)
+		(at 90.17 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bda1fe12-ee7a-491b-a828-c9b4c9b8719b")
@@ -5243,7 +5514,7 @@
 		(uuid "ec31a574-a643-4612-8326-fc90000be662")
 	)
 	(junction
-		(at 132.08 146.05)
+		(at 125.73 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f477ad67-2a42-4f93-b417-c4714b0ade47")
@@ -5255,7 +5526,7 @@
 		(uuid "f6afe35d-c414-4d10-858a-2192141310d2")
 	)
 	(junction
-		(at 123.19 146.05)
+		(at 116.84 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f894afba-da29-47cc-931b-4ace9c8ff2cf")
@@ -5378,7 +5649,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 115.57) (xy 139.7 115.57)
+			(xy 78.74 116.84) (xy 133.35 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5438,7 +5709,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 180.34) (xy 114.3 176.53)
+			(xy 107.95 181.61) (xy 107.95 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5458,7 +5729,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 130.81) (xy 105.41 130.81)
+			(xy 78.74 132.08) (xy 99.06 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5498,7 +5769,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 151.13) (xy 114.3 151.13)
+			(xy 78.74 152.4) (xy 107.95 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5508,7 +5779,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 105.41) (xy 123.19 146.05)
+			(xy 116.84 106.68) (xy 116.84 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5548,7 +5819,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 130.81) (xy 105.41 130.81)
+			(xy 133.35 132.08) (xy 99.06 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5608,7 +5879,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 105.41) (xy 49.53 105.41)
+			(xy 41.91 106.68) (xy 43.18 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5715,6 +5986,16 @@
 			(type default)
 		)
 		(uuid "163d5709-68c3-463e-98ba-53da94fab56c")
+	)
+	(wire
+		(pts
+			(xy 358.14 163.83) (xy 358.14 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "176edda4-015a-46e6-a1a8-abbe7de2937a")
 	)
 	(wire
 		(pts
@@ -5935,6 +6216,16 @@
 			(type default)
 		)
 		(uuid "226160f7-84de-43c8-8007-a9ef76885df8")
+	)
+	(wire
+		(pts
+			(xy 361.95 73.66) (xy 361.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ea2f7e-a8e6-4fce-b756-0a2a21987b2e")
 	)
 	(wire
 		(pts
@@ -6178,7 +6469,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 146.05) (xy 132.08 146.05)
+			(xy 116.84 147.32) (xy 125.73 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6258,7 +6549,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 156.21) (xy 123.19 156.21)
+			(xy 78.74 157.48) (xy 116.84 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6285,6 +6576,16 @@
 			(type default)
 		)
 		(uuid "4652380f-746b-4749-a8e3-f6b22682ef90")
+	)
+	(wire
+		(pts
+			(xy 349.25 73.66) (xy 349.25 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4767ca87-ec6e-403f-b3de-a897bcbf05a9")
 	)
 	(wire
 		(pts
@@ -6378,7 +6679,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 125.73) (xy 139.7 125.73)
+			(xy 78.74 127) (xy 133.35 127)
 		)
 		(stroke
 			(width 0)
@@ -6438,7 +6739,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 151.13) (xy 139.7 151.13)
+			(xy 107.95 152.4) (xy 133.35 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6448,7 +6749,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 146.05) (xy 49.53 146.05)
+			(xy 39.37 147.32) (xy 43.18 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6498,7 +6799,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 166.37) (xy 49.53 166.37)
+			(xy 347.98 163.83) (xy 347.98 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56080ee8-0b54-478c-9c28-c5b6d6ba2ba3")
+	)
+	(wire
+		(pts
+			(xy 39.37 167.64) (xy 43.18 167.64)
 		)
 		(stroke
 			(width 0)
@@ -6518,7 +6829,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 151.13) (xy 49.53 151.13)
+			(xy 39.37 152.4) (xy 43.18 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6608,7 +6919,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 110.49) (xy 96.52 105.41)
+			(xy 90.17 111.76) (xy 90.17 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6618,7 +6929,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 156.21) (xy 132.08 168.91)
+			(xy 125.73 157.48) (xy 125.73 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6638,7 +6949,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 105.41) (xy 132.08 146.05)
+			(xy 125.73 106.68) (xy 125.73 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6708,6 +7019,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 83.82) (xy 349.25 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6184719b-a864-40c8-be67-faaf933a5fc5")
+	)
+	(wire
+		(pts
 			(xy 280.67 124.46) (xy 280.67 121.92)
 		)
 		(stroke
@@ -6718,7 +7039,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 161.29) (xy 49.53 161.29)
+			(xy 39.37 162.56) (xy 43.18 162.56)
 		)
 		(stroke
 			(width 0)
@@ -6795,6 +7116,16 @@
 			(type default)
 		)
 		(uuid "66bcfbac-2fde-4420-b309-46ae5d790678")
+	)
+	(wire
+		(pts
+			(xy 361.95 95.25) (xy 361.95 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66db65a3-a357-488d-b604-faefd12220b1")
 	)
 	(wire
 		(pts
@@ -6908,7 +7239,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 96.52) (xy 114.3 97.79)
+			(xy 107.95 97.79) (xy 107.95 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7148,7 +7479,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 130.81) (xy 105.41 105.41)
+			(xy 99.06 132.08) (xy 99.06 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7208,6 +7539,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 95.25) (xy 374.65 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b3762b2-79dd-4c7d-9a73-5b8aa42a241d")
+	)
+	(wire
+		(pts
 			(xy 226.06 111.76) (xy 226.06 114.3)
 		)
 		(stroke
@@ -7238,7 +7579,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 96.52) (xy 96.52 97.79)
+			(xy 90.17 97.79) (xy 90.17 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7328,7 +7669,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 146.05) (xy 123.19 146.05)
+			(xy 78.74 147.32) (xy 116.84 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7338,7 +7679,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 105.41) (xy 114.3 140.97)
+			(xy 107.95 106.68) (xy 107.95 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7368,6 +7709,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 83.82) (xy 374.65 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b9859f-f281-4040-8d5b-4c919c28933b")
+	)
+	(wire
+		(pts
 			(xy 224.79 119.38) (xy 226.06 119.38)
 		)
 		(stroke
@@ -7378,7 +7729,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 110.49) (xy 96.52 110.49)
+			(xy 78.74 111.76) (xy 90.17 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7458,7 +7809,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 151.13) (xy 114.3 168.91)
+			(xy 107.95 152.4) (xy 107.95 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7518,7 +7869,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 140.97) (xy 114.3 140.97)
+			(xy 78.74 142.24) (xy 107.95 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7535,6 +7886,16 @@
 			(type default)
 		)
 		(uuid "a1e56ca8-6497-401a-94df-386b6009919b")
+	)
+	(wire
+		(pts
+			(xy 361.95 83.82) (xy 361.95 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a367bfbe-e247-43d0-8cea-0878a4d4292f")
 	)
 	(wire
 		(pts
@@ -7595,6 +7956,16 @@
 			(type default)
 		)
 		(uuid "a6cf377f-cc8b-4c8a-8f7d-12f46a8e7c1b")
+	)
+	(wire
+		(pts
+			(xy 378.46 163.83) (xy 378.46 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a905a87d-7b9d-46ce-a861-4f03b69d48ec")
 	)
 	(wire
 		(pts
@@ -7688,7 +8059,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 146.05) (xy 139.7 146.05)
+			(xy 125.73 147.32) (xy 133.35 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7878,7 +8249,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 140.97) (xy 139.7 140.97)
+			(xy 107.95 142.24) (xy 133.35 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7978,7 +8349,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 180.34) (xy 123.19 176.53)
+			(xy 116.84 181.61) (xy 116.84 177.8)
 		)
 		(stroke
 			(width 0)
@@ -8168,7 +8539,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 180.34) (xy 132.08 176.53)
+			(xy 125.73 181.61) (xy 125.73 177.8)
 		)
 		(stroke
 			(width 0)
@@ -8188,13 +8559,23 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 156.21) (xy 132.08 156.21)
+			(xy 116.84 157.48) (xy 125.73 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "da3b5fa6-5ebc-4257-98f4-1c72c552c027")
+	)
+	(wire
+		(pts
+			(xy 349.25 95.25) (xy 349.25 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da5af6c7-4d1d-4bc0-b7e9-8e2b4658c896")
 	)
 	(wire
 		(pts
@@ -8248,6 +8629,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 163.83) (xy 368.3 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd7c767a-0842-4270-8b04-dae704fc3a41")
+	)
+	(wire
+		(pts
 			(xy 68.58 229.87) (xy 66.04 229.87)
 		)
 		(stroke
@@ -8258,7 +8649,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 156.21) (xy 123.19 168.91)
+			(xy 116.84 157.48) (xy 116.84 170.18)
 		)
 		(stroke
 			(width 0)
@@ -8298,7 +8689,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 110.49) (xy 139.7 110.49)
+			(xy 90.17 111.76) (xy 133.35 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8308,7 +8699,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 105.41) (xy 86.36 105.41)
+			(xy 78.74 106.68) (xy 80.01 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8358,7 +8749,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 156.21) (xy 139.7 156.21)
+			(xy 125.73 157.48) (xy 133.35 157.48)
 		)
 		(stroke
 			(width 0)
@@ -8438,7 +8829,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 96.52) (xy 123.19 97.79)
+			(xy 116.84 97.79) (xy 116.84 99.06)
 		)
 		(stroke
 			(width 0)
@@ -8478,7 +8869,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 156.21) (xy 49.53 156.21)
+			(xy 39.37 157.48) (xy 43.18 157.48)
 		)
 		(stroke
 			(width 0)
@@ -8488,7 +8879,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 120.65) (xy 139.7 120.65)
+			(xy 78.74 121.92) (xy 133.35 121.92)
 		)
 		(stroke
 			(width 0)
@@ -8508,7 +8899,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 96.52) (xy 105.41 97.79)
+			(xy 374.65 73.66) (xy 374.65 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c32e74-cf79-4e4a-9ece-ffb90bb50898")
+	)
+	(wire
+		(pts
+			(xy 99.06 97.79) (xy 99.06 99.06)
 		)
 		(stroke
 			(width 0)
@@ -8588,7 +8989,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 96.52) (xy 132.08 97.79)
+			(xy 125.73 97.79) (xy 125.73 99.06)
 		)
 		(stroke
 			(width 0)
@@ -8637,6 +9038,18 @@
 		(uuid "fd83d174-ce31-49ca-bff9-d70863e57f6e")
 	)
 	(rectangle
+		(start 344.17 66.04)
+		(end 386.08 107.95)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4fa071ea-14bd-40a7-aff6-d36f39cbda3d)
+	)
+	(rectangle
 		(start 162.56 31.75)
 		(end 115.57 66.04)
 		(stroke
@@ -8649,8 +9062,20 @@
 		(uuid 551de91a-128c-4396-8e9f-28a23846e6d3)
 	)
 	(rectangle
-		(start 190.5 226.06)
-		(end 143.51 260.35)
+		(start 342.9 154.94)
+		(end 386.08 179.07)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7bfa81fd-6938-44f6-b834-ee799caad41b)
+	)
+	(rectangle
+		(start 143.51 226.06)
+		(end 190.5 260.35)
 		(stroke
 			(width 0)
 			(type default)
@@ -8673,8 +9098,8 @@
 		(uuid 88c432f0-bdf3-490b-bb2f-5dd8b8fc5d17)
 	)
 	(rectangle
-		(start 30.48 85.09)
-		(end 152.4 203.2)
+		(start 24.13 86.36)
+		(end 146.05 204.47)
 		(stroke
 			(width 0)
 			(type default)
@@ -23416,7 +23841,7 @@
 	)
 	(text "MCU"
 		(exclude_from_sim no)
-		(at 92.202 82.042 0)
+		(at 85.852 83.312 0)
 		(effects
 			(font
 				(size 3.048 3.048)
@@ -23466,6 +23891,16 @@
 		)
 		(uuid "57ee2803-1d0d-460f-bcf8-89c3a012087a")
 	)
+	(text "Power LEDs"
+		(exclude_from_sim no)
+		(at 365.506 61.976 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+		)
+		(uuid "62d12aa7-fd8f-4e14-a810-ab816c13c451")
+	)
 	(text "SpeakerB\n8Ω"
 		(exclude_from_sim no)
 		(at 312.166 128.778 0)
@@ -23485,6 +23920,16 @@
 			)
 		)
 		(uuid "a344b94d-ce5e-466b-bde9-53168203435b")
+	)
+	(text "Mounting Holes"
+		(exclude_from_sim no)
+		(at 364.49 150.876 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+		)
+		(uuid "aae7ec1b-6ca8-4b0f-854a-2255ee171b2b")
 	)
 	(text "3.3V Converter"
 		(exclude_from_sim no)
@@ -23507,7 +23952,7 @@
 		(uuid "c261b249-00cc-4103-9ab1-bb253054782c")
 	)
 	(label "SCLK"
-		(at 139.7 120.65 0)
+		(at 133.35 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23529,7 +23974,7 @@
 		(uuid "2da40b28-febd-4aed-ba3d-72fc802a26e5")
 	)
 	(label "PDN2"
-		(at 139.7 156.21 0)
+		(at 133.35 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23551,7 +23996,7 @@
 		(uuid "324ebe1c-02ee-4418-8589-ed7bbc40b8b2")
 	)
 	(label "Volume+"
-		(at 45.72 151.13 180)
+		(at 39.37 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23562,7 +24007,7 @@
 		(uuid "329c3f5f-c3f5-4f02-831d-72bfd3655972")
 	)
 	(label "PDN1"
-		(at 139.7 146.05 0)
+		(at 133.35 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23606,7 +24051,7 @@
 		(uuid "4d47f6ad-9130-4faa-a10a-1a0b2f00c8ce")
 	)
 	(label "Volume-"
-		(at 45.72 146.05 180)
+		(at 39.37 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23639,7 +24084,7 @@
 		(uuid "64f7874f-6d39-49f1-8552-9a2e35c6df33")
 	)
 	(label "Next"
-		(at 45.72 161.29 180)
+		(at 39.37 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23672,7 +24117,7 @@
 		(uuid "7c8e5980-1d38-4ba7-87d6-75db41c66802")
 	)
 	(label "ADR1"
-		(at 139.7 110.49 0)
+		(at 133.35 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23694,7 +24139,7 @@
 		(uuid "929f2699-a3f0-4dc7-8574-3fa483a92917")
 	)
 	(label "SCL"
-		(at 139.7 140.97 0)
+		(at 133.35 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23705,7 +24150,7 @@
 		(uuid "93777c5c-624d-4bfa-894d-ada3a9573b5e")
 	)
 	(label "LRCLK"
-		(at 139.7 115.57 0)
+		(at 133.35 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23760,7 +24205,7 @@
 		(uuid "b4f5bf4e-a770-47c8-836d-a3d38a61923f")
 	)
 	(label "SDIN"
-		(at 139.7 125.73 0)
+		(at 133.35 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23782,7 +24227,7 @@
 		(uuid "ba7e974d-97fa-41cd-9fdc-130597eab066")
 	)
 	(label "Previous"
-		(at 45.72 166.37 180)
+		(at 39.37 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23837,7 +24282,7 @@
 		(uuid "cfcf22ba-6085-4163-aadd-74da6503a0f0")
 	)
 	(label "SDA"
-		(at 139.7 130.81 0)
+		(at 133.35 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23859,7 +24304,7 @@
 		(uuid "e3609753-546a-49bd-9fc7-58c136c35f1d")
 	)
 	(label "Play{slash}Pause"
-		(at 45.72 156.21 180)
+		(at 39.37 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23870,7 +24315,7 @@
 		(uuid "e6e9d7c1-58a7-4d7a-883c-4af1070e9a2d")
 	)
 	(label "ADR2"
-		(at 139.7 151.13 0)
+		(at 133.35 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23962,6 +24407,72 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 378.46 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01f28580-b777-4b7b-85e5-c42c4e49e06a")
+		(property "Reference" "#PWR052"
+			(at 378.46 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 378.46 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.46 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 378.46 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a62deb2-0d4b-43cc-b0ea-3da6f3e00c8a")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -24771,6 +25282,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 349.25 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "194b5b2f-31d3-4cf4-9907-c4b060c24d73")
+		(property "Reference" "#PWR045"
+			(at 349.25 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PVDD"
+			(at 348.996 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 349.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 349.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5d9670a-782c-4817-9f5a-a63c45f17837")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 243.84 130.81 90)
 		(unit 1)
@@ -24906,6 +25482,72 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 368.3 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22627de9-00a3-4c29-875b-589f608cc0e9")
+		(property "Reference" "#PWR051"
+			(at 368.3 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 368.3 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 368.3 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af3aa35c-6eda-4d67-93d2-21e1398b8c3e")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -25065,8 +25707,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 361.95 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "309fc956-51f0-48ab-a693-a83c1764f6be")
+		(property "Reference" "R17"
+			(at 364.49 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 364.49 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 360.172 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73B.pdf"
+			(at 361.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 361.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KOA-Speer/RK73B2ATTDD152J?qs=sGAEpiMZZMvdGkrng054t3pr%252BPE%2FADjsaMAQ1VbYppg%3D"
+			(at 361.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b698a1f-e11a-4174-8614-2181d36ccec2")
+		)
+		(pin "1"
+			(uuid "f7985b7f-440f-4e0d-be05-3369bccfb3f3")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
-		(at 96.52 96.52 0)
+		(at 90.17 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25074,7 +25795,7 @@
 		(dnp no)
 		(uuid "3207dd09-f4bc-4e7e-8373-00c304d9db4b")
 		(property "Reference" "#PWR014"
-			(at 96.52 100.33 0)
+			(at 90.17 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25083,7 +25804,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 96.52 92.456 0)
+			(at 90.17 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25091,7 +25812,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 96.52 0)
+			(at 90.17 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25100,7 +25821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 96.52 0)
+			(at 90.17 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25109,7 +25830,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 96.52 96.52 0)
+			(at 90.17 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25273,7 +25994,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 180.34 0)
+		(at 116.84 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25281,7 +26002,7 @@
 		(dnp no)
 		(uuid "35448fd7-f044-449c-93b8-fef52ec5cb0a")
 		(property "Reference" "#PWR029"
-			(at 123.19 186.69 0)
+			(at 116.84 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25290,7 +26011,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 184.404 0)
+			(at 116.84 185.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25298,7 +26019,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 180.34 0)
+			(at 116.84 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25307,7 +26028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 180.34 0)
+			(at 116.84 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25316,7 +26037,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 180.34 0)
+			(at 116.84 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25404,6 +26125,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 378.46 161.29 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3887a559-7936-4d67-8a7b-c0d40d156b92")
+		(property "Reference" "H4"
+			(at 381 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 381 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 378.46 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 378.46 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efd781a2-686a-4f20-8472-dcb7ddfdafd5")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 328.93 198.12 180)
 		(unit 1)
@@ -25483,7 +26271,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 96.52 0)
+		(at 116.84 97.79 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25492,7 +26280,7 @@
 		(dnp no)
 		(uuid "3a411814-c04e-44cb-99ad-aefc4ea6ae95")
 		(property "Reference" "#PWR015"
-			(at 123.19 90.17 0)
+			(at 116.84 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25501,7 +26289,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 92.456 0)
+			(at 116.84 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25509,7 +26297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 96.52 0)
+			(at 116.84 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25518,7 +26306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 96.52 0)
+			(at 116.84 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25527,7 +26315,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 96.52 0)
+			(at 116.84 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25831,6 +26619,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 347.98 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "473109a5-04c5-4800-a9fb-4c3bf4e96343")
+		(property "Reference" "#PWR049"
+			(at 347.98 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 347.98 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.98 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 347.98 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa9eb95f-a1b1-487c-8335-e5ae359d69e1")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 328.93 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25890,6 +26744,85 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 349.25 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49a59258-35f2-49ae-89eb-be246096efaa")
+		(property "Reference" "R16"
+			(at 351.79 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.6k"
+			(at 351.79 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 347.472 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73B.pdf"
+			(at 349.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 349.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KOA-Speer/RK73B2ATTD162J?qs=sGAEpiMZZMvdGkrng054t9RmNys7M1Eop6FRuuAV0NQ%3D"
+			(at 349.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e72f24a5-1400-41b5-a9b1-e5c68af47821")
+		)
+		(pin "1"
+			(uuid "52c50309-48fb-4642-82de-53aa8dade986")
+		)
+		(instances
+			(project ""
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -26481,6 +27414,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 349.25 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59c1c35d-a073-45e0-921f-70077392a551")
+		(property "Reference" "#PWR046"
+			(at 349.25 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 348.996 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 349.25 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 349.25 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "680c70f1-6eed-49bd-b862-94cb7978254c")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 254 118.11 90)
 		(unit 1)
@@ -26618,6 +27616,73 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 368.3 161.29 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "62f29e84-fe73-4ffb-8fa2-ab1c8d4599ce")
+		(property "Reference" "H3"
+			(at 370.84 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 370.84 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 368.3 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 368.3 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 368.3 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c9ab948-e449-4de8-8041-c1f9da29b2dd")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -27207,7 +28272,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 105.41 101.6 180)
+		(at 99.06 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27215,7 +28280,7 @@
 		(dnp no)
 		(uuid "73b92019-3fef-4481-9028-6c564d3ee7bd")
 		(property "Reference" "R1"
-			(at 107.188 100.584 0)
+			(at 100.838 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27224,7 +28289,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 107.188 103.124 0)
+			(at 100.838 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27233,7 +28298,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 107.188 101.6 90)
+			(at 100.838 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27242,7 +28307,7 @@
 			)
 		)
 		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
-			(at 105.41 101.6 0)
+			(at 99.06 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27251,7 +28316,7 @@
 			)
 		)
 		(property "Description" "YAGEO - RT0805FRE132K2L"
-			(at 105.41 101.6 0)
+			(at 99.06 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27260,7 +28325,7 @@
 			)
 		)
 		(property "MouserLink" "https://gr.mouser.com/ProductDetail/YAGEO/RT0805FRE132K2L?qs=1mbolxNpo8exiBAxJ2f5fA%3D%3D"
-			(at 105.41 101.6 0)
+			(at 99.06 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27847,6 +28912,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 374.65 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8530c04f-0be4-45a9-b29d-5564f558593e")
+		(property "Reference" "#PWR043"
+			(at 374.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 374.396 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 374.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 374.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dea2132-f697-4f44-a5e1-424dedf58b25")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 220.98 33.02 270)
 		(mirror x)
@@ -27924,16 +29054,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 105.41 96.52 0)
+		(lib_id "power:GND")
+		(at 361.95 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8c44ae50-b0ca-454a-98d9-16ca27b62994")
-		(property "Reference" "#PWR011"
-			(at 105.41 100.33 0)
+		(uuid "89b8ea2d-00d8-495f-b9f5-9412de177816")
+		(property "Reference" "#PWR047"
+			(at 361.95 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27941,8 +29071,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 105.41 92.456 0)
+		(property "Value" "GND"
+			(at 361.696 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27950,7 +29080,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 96.52 0)
+			(at 361.95 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27959,7 +29089,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 96.52 0)
+			(at 361.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 361.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dad3a193-237c-4d39-8f8e-77e39ae7164f")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 99.06 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c44ae50-b0ca-454a-98d9-16ca27b62994")
+		(property "Reference" "#PWR011"
+			(at 99.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 99.06 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27968,7 +29163,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 105.41 96.52 0)
+			(at 99.06 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28146,7 +29341,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 132.08 180.34 180)
+		(at 125.73 181.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28154,7 +29349,7 @@
 		(dnp no)
 		(uuid "93517836-8316-4a0a-a23d-3ebbbcde39e1")
 		(property "Reference" "#PWR033"
-			(at 132.08 176.53 0)
+			(at 125.73 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28163,7 +29358,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 132.08 184.404 0)
+			(at 125.73 185.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28171,7 +29366,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 180.34 0)
+			(at 125.73 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28180,7 +29375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 180.34 0)
+			(at 125.73 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28189,7 +29384,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 132.08 180.34 0)
+			(at 125.73 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28719,8 +29914,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 374.65 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a14d27d5-7890-478f-8f2b-d15f1baaf7a7")
+		(property "Reference" "D3"
+			(at 377.698 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Green"
+			(at 377.698 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
+			(at 374.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81323/vlmg31.pdf"
+			(at 374.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Green LED - 2.1V, 10mA"
+			(at 374.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/Vishay-Semiconductors/VLMG31L1M2-GS18?qs=F8HfwHd0zjfmlOctkYGhcA%3D%3D"
+			(at 374.65 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e3a0953-497d-40e0-9052-e72c0db974fa")
+		)
+		(pin "2"
+			(uuid "7fd271f5-64cd-4ebc-bb0c-b99db60eb5d5")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 114.3 172.72 0)
+		(at 107.95 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28728,7 +30001,7 @@
 		(dnp no)
 		(uuid "a277550a-cb1b-44ff-a855-bea307efb9a4")
 		(property "Reference" "R6"
-			(at 116.332 171.45 0)
+			(at 109.982 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28737,7 +30010,7 @@
 			)
 		)
 		(property "Value" "15k"
-			(at 116.332 173.99 0)
+			(at 109.982 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28746,7 +30019,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 112.522 172.72 90)
+			(at 106.172 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28755,7 +30028,7 @@
 			)
 		)
 		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
-			(at 114.3 172.72 0)
+			(at 107.95 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28764,7 +30037,7 @@
 			)
 		)
 		(property "Description" "YAGEO - RT0805DRD0715KL"
-			(at 114.3 172.72 0)
+			(at 107.95 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28773,7 +30046,7 @@
 			)
 		)
 		(property "MouserLink" "https://gr.mouser.com/ProductDetail/YAGEO/RT0805DRD0715KL?qs=sGAEpiMZZMvdGkrng054t98Xz4DA4UW4451u63RR7ec%3D"
-			(at 114.3 172.72 0)
+			(at 107.95 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29173,7 +30446,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 114.3 101.6 180)
+		(at 107.95 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29181,7 +30454,7 @@
 		(dnp no)
 		(uuid "ab0e3556-06d6-4a4d-9cfb-7a27a6e9f256")
 		(property "Reference" "R2"
-			(at 116.078 100.584 0)
+			(at 109.728 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29190,7 +30463,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 116.078 103.124 0)
+			(at 109.728 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29199,7 +30472,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 116.078 101.6 90)
+			(at 109.728 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29208,7 +30481,7 @@
 			)
 		)
 		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
-			(at 114.3 101.6 0)
+			(at 107.95 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29217,7 +30490,7 @@
 			)
 		)
 		(property "Description" "YAGEO - RT0805FRE132K2L"
-			(at 114.3 101.6 0)
+			(at 107.95 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29226,7 +30499,7 @@
 			)
 		)
 		(property "MouserLink" "https://gr.mouser.com/ProductDetail/YAGEO/RT0805FRE132K2L?qs=1mbolxNpo8exiBAxJ2f5fA%3D%3D"
-			(at 114.3 101.6 0)
+			(at 107.95 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29392,7 +30665,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 132.08 96.52 0)
+		(at 125.73 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29400,7 +30673,7 @@
 		(dnp no)
 		(uuid "b3e29a25-842f-45db-8dab-dfbdd8bde122")
 		(property "Reference" "#PWR028"
-			(at 132.08 100.33 0)
+			(at 125.73 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29409,7 +30682,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 132.08 92.456 0)
+			(at 125.73 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29417,7 +30690,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 96.52 0)
+			(at 125.73 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29426,7 +30699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 96.52 0)
+			(at 125.73 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29435,7 +30708,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 132.08 96.52 0)
+			(at 125.73 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29723,7 +30996,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 114.3 180.34 180)
+		(at 107.95 181.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29731,7 +31004,7 @@
 		(dnp no)
 		(uuid "b6adedd1-d799-465a-857c-6050e91f83a4")
 		(property "Reference" "#PWR027"
-			(at 114.3 176.53 0)
+			(at 107.95 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29740,7 +31013,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 114.3 184.404 0)
+			(at 107.95 185.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29748,7 +31021,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 180.34 0)
+			(at 107.95 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29757,7 +31030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 180.34 0)
+			(at 107.95 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29766,7 +31039,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 114.3 180.34 0)
+			(at 107.95 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29864,7 +31137,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 172.72 0)
+		(at 125.73 173.99 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29873,7 +31146,7 @@
 		(dnp no)
 		(uuid "b79daab2-4e99-4d46-9d6c-b358b155fcf8")
 		(property "Reference" "R10"
-			(at 133.858 171.704 0)
+			(at 127.508 172.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29882,7 +31155,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 133.858 174.244 0)
+			(at 127.508 175.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29891,7 +31164,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 133.858 172.72 90)
+			(at 127.508 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29900,7 +31173,7 @@
 			)
 		)
 		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
-			(at 132.08 172.72 0)
+			(at 125.73 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29909,7 +31182,7 @@
 			)
 		)
 		(property "Description" "YAGEO - RT0805DRD074K7L"
-			(at 132.08 172.72 0)
+			(at 125.73 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29918,7 +31191,7 @@
 			)
 		)
 		(property "MouserLink" "https://gr.mouser.com/ProductDetail/YAGEO/RT0805DRD074K7L?qs=4CyHz7GXqSgskZKNIL1%252BXQ%3D%3D"
-			(at 132.08 172.72 0)
+			(at 125.73 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29936,6 +31209,71 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 374.65 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b81eccc6-0817-44cf-9d29-a607138ad1d4")
+		(property "Reference" "#PWR048"
+			(at 374.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 374.396 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 374.65 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 374.65 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60651d7b-6d89-4b3d-af24-7272122135ec")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -30097,7 +31435,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 96.52 101.6 180)
+		(at 90.17 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30105,7 +31443,7 @@
 		(dnp no)
 		(uuid "bb26a4c4-83b8-4db0-a751-9b019808762b")
 		(property "Reference" "R3"
-			(at 98.298 100.584 0)
+			(at 91.948 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30114,7 +31452,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 98.298 103.124 0)
+			(at 91.948 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30123,7 +31461,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 98.298 101.6 90)
+			(at 91.948 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30132,7 +31470,7 @@
 			)
 		)
 		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
-			(at 96.52 101.6 0)
+			(at 90.17 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30141,7 +31479,7 @@
 			)
 		)
 		(property "Description" "YAGEO - RT0805DRD074K7L"
-			(at 96.52 101.6 0)
+			(at 90.17 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30150,7 +31488,7 @@
 			)
 		)
 		(property "MouserLink" "https://gr.mouser.com/ProductDetail/YAGEO/RT0805DRD074K7L?qs=4CyHz7GXqSgskZKNIL1%252BXQ%3D%3D"
-			(at 96.52 101.6 0)
+			(at 90.17 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30251,7 +31589,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 105.41 90)
+		(at 80.01 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30259,7 +31597,7 @@
 		(dnp no)
 		(uuid "bf95f34b-7eab-4c28-8189-5fcc7fc94543")
 		(property "Reference" "#PWR012"
-			(at 92.71 105.41 0)
+			(at 86.36 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30268,7 +31606,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 105.41 90)
+			(at 85.09 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30276,7 +31614,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 105.41 0)
+			(at 80.01 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30285,7 +31623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 105.41 0)
+			(at 80.01 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30294,7 +31632,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 105.41 0)
+			(at 80.01 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30316,7 +31654,7 @@
 	)
 	(symbol
 		(lib_id "Speaker Amp Lib:ESP32-DevKitC-32E")
-		(at 67.31 151.13 0)
+		(at 60.96 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30325,7 +31663,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2b39c20-c88a-4b84-906e-3f6c7771651a")
 		(property "Reference" "MCU1"
-			(at 67.31 97.79 0)
+			(at 60.96 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30333,7 +31671,7 @@
 			)
 		)
 		(property "Value" "ESP32-DevKitC-32E"
-			(at 67.31 100.33 0)
+			(at 60.96 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30341,7 +31679,7 @@
 			)
 		)
 		(property "Footprint" "Speaker Amp Lib:ESP32-DevKitC-32E"
-			(at 67.056 202.692 0)
+			(at 60.706 203.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30350,7 +31688,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp32-devkitc/user_guide.html"
-			(at 67.3796 142.6205 0)
+			(at 61.0296 143.8905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30359,7 +31697,7 @@
 			)
 		)
 		(property "Description" "ESP32"
-			(at 67.3796 142.6205 0)
+			(at 61.0296 143.8905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30368,7 +31706,7 @@
 			)
 		)
 		(property "MouserLink" "https://gr.mouser.com/ProductDetail/Espressif-Systems/ESP32-DevKitC-32E?qs=GedFDFLaBXFpgD0kAZWDrQ%3D%3D"
-			(at 67.31 151.13 0)
+			(at 60.96 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30656,7 +31994,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 101.6 180)
+		(at 125.73 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30664,7 +32002,7 @@
 		(dnp no)
 		(uuid "c6ca8c51-dd0f-427a-a578-10c8785adf88")
 		(property "Reference" "R9"
-			(at 133.858 100.584 0)
+			(at 127.508 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30673,7 +32011,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 133.858 103.124 0)
+			(at 127.508 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30682,7 +32020,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 133.858 101.6 90)
+			(at 127.508 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30691,7 +32029,7 @@
 			)
 		)
 		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
-			(at 132.08 101.6 0)
+			(at 125.73 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30700,7 +32038,7 @@
 			)
 		)
 		(property "Description" "YAGEO - RT0805DRD074K7L"
-			(at 132.08 101.6 0)
+			(at 125.73 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30709,7 +32047,7 @@
 			)
 		)
 		(property "MouserLink" "https://gr.mouser.com/ProductDetail/YAGEO/RT0805DRD074K7L?qs=4CyHz7GXqSgskZKNIL1%252BXQ%3D%3D"
-			(at 132.08 101.6 0)
+			(at 125.73 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30727,6 +32065,73 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 358.14 161.29 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9536225-c291-448a-8c4a-c391e73add2d")
+		(property "Reference" "H2"
+			(at 360.68 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 360.68 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 358.14 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 358.14 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 358.14 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c147cc2f-a93a-4b53-84f8-ce32ea0c1522")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -30793,6 +32198,163 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 349.25 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0716f09-c4ae-491d-9a30-16d2c37e4244")
+		(property "Reference" "D1"
+			(at 352.298 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 352.298 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
+			(at 349.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81230/vlmk310.pdf"
+			(at 349.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red LED - 1.9V, 10mA"
+			(at 349.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/Vishay-Semiconductors/VLMK3102-GS08?qs=0a36Zf3k4G%2Fw61r73Lk%252B4w%3D%3D"
+			(at 349.25 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6f7103b-e0da-49c9-9b8a-2dfe1552c8c5")
+		)
+		(pin "2"
+			(uuid "ea7d07e1-8d1a-46c0-aa36-77c016bc45fe")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 374.65 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d07546e3-c2a5-4e8c-b817-2479b219f1fc")
+		(property "Reference" "R18"
+			(at 377.19 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120"
+			(at 377.19 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 372.872 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73B.pdf"
+			(at 374.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 374.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/KOA-Speer/RK73B2ATTD121G?qs=sGAEpiMZZMvdGkrng054t3pr%252BPE%2FADjs8dBmXO%252B5h9g%3D"
+			(at 374.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fecc5377-1926-4640-8182-0fac5785cdb1")
+		)
+		(pin "1"
+			(uuid "90b0a136-25ca-4df8-8645-470766a859a2")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -31492,6 +33054,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 361.95 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df478d24-9463-4609-98aa-fa39065037e5")
+		(property "Reference" "D2"
+			(at 364.998 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Blue"
+			(at 364.998 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
+			(at 361.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81641/vlmb41.pdf"
+			(at 361.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Blue LED - 3.2V, 10mA"
+			(at 361.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserLink" "https://gr.mouser.com/ProductDetail/Vishay-Semiconductors/VLMB41P1Q2-GS18?qs=F8HfwHd0zjdVIQw0BQa9zg%3D%3D"
+			(at 361.95 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09ccb0ed-0cf3-4bd0-b18b-d61fc6fa28d4")
+		)
+		(pin "2"
+			(uuid "2c623474-e397-4245-8546-42a12a25a4d6")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 289.56 64.77 0)
 		(unit 1)
@@ -31572,7 +33212,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 101.6 180)
+		(at 116.84 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31580,7 +33220,7 @@
 		(dnp no)
 		(uuid "e23dd0ab-c9dd-497e-bd8b-d450ddb575e2")
 		(property "Reference" "R7"
-			(at 124.968 100.584 0)
+			(at 118.618 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31589,7 +33229,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 124.968 103.124 0)
+			(at 118.618 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31598,7 +33238,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 124.968 101.6 90)
+			(at 118.618 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31607,7 +33247,7 @@
 			)
 		)
 		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
-			(at 123.19 101.6 0)
+			(at 116.84 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31616,7 +33256,7 @@
 			)
 		)
 		(property "Description" "YAGEO - RT0805DRD074K7L"
-			(at 123.19 101.6 0)
+			(at 116.84 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31625,7 +33265,7 @@
 			)
 		)
 		(property "MouserLink" "https://gr.mouser.com/ProductDetail/YAGEO/RT0805DRD074K7L?qs=4CyHz7GXqSgskZKNIL1%252BXQ%3D%3D"
-			(at 123.19 101.6 0)
+			(at 116.84 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32009,6 +33649,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 361.95 73.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f04c09eb-1c86-4202-8370-8ec97e441203")
+		(property "Reference" "#PWR044"
+			(at 361.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PVDD2"
+			(at 361.95 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 361.95 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a19e4e08-ee62-456f-8016-65acdabb9316")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 212.09 27.94 0)
 		(unit 1)
@@ -32216,7 +33922,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 48.26 105.41 90)
+		(at 41.91 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32225,7 +33931,7 @@
 		(fields_autoplaced yes)
 		(uuid "f35e24c9-6a64-406a-a55f-ed8c596f5b23")
 		(property "Reference" "#PWR010"
-			(at 52.07 105.41 0)
+			(at 45.72 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32234,7 +33940,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 44.45 105.4099 90)
+			(at 38.1 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32243,7 +33949,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 105.41 0)
+			(at 41.91 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32252,7 +33958,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 105.41 0)
+			(at 41.91 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32261,7 +33967,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 48.26 105.41 0)
+			(at 41.91 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32348,7 +34054,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 114.3 96.52 0)
+		(at 107.95 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32356,7 +34062,7 @@
 		(dnp no)
 		(uuid "f93f6b59-09f1-48b6-a365-5cd38a638099")
 		(property "Reference" "#PWR013"
-			(at 114.3 100.33 0)
+			(at 107.95 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32365,7 +34071,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 114.3 92.456 0)
+			(at 107.95 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32373,7 +34079,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 96.52 0)
+			(at 107.95 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32382,7 +34088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 96.52 0)
+			(at 107.95 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32391,7 +34097,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 114.3 96.52 0)
+			(at 107.95 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32412,8 +34118,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 358.14 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa78c65e-0c46-4dae-876a-6af89caf499f")
+		(property "Reference" "#PWR050"
+			(at 358.14 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 358.14 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 358.14 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98c7f67e-28f2-4a3a-962a-6f39134ea0bc")
+		)
+		(instances
+			(project "speaker_amp2"
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 123.19 172.72 0)
+		(at 116.84 173.99 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32422,7 +34194,7 @@
 		(dnp no)
 		(uuid "fb6ab04b-888e-4a7d-bfd8-02c9ca10c093")
 		(property "Reference" "R8"
-			(at 124.968 171.704 0)
+			(at 118.618 172.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32431,7 +34203,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 124.968 174.244 0)
+			(at 118.618 175.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32440,7 +34212,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 124.968 172.72 90)
+			(at 118.618 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32449,7 +34221,7 @@
 			)
 		)
 		(property "Datasheet" "https://gr.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
-			(at 123.19 172.72 0)
+			(at 116.84 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32458,7 +34230,7 @@
 			)
 		)
 		(property "Description" "YAGEO - RT0805DRD074K7L"
-			(at 123.19 172.72 0)
+			(at 116.84 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32467,7 +34239,7 @@
 			)
 		)
 		(property "MouserLink" "https://gr.mouser.com/ProductDetail/YAGEO/RT0805DRD074K7L?qs=4CyHz7GXqSgskZKNIL1%252BXQ%3D%3D"
-			(at 123.19 172.72 0)
+			(at 116.84 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32551,6 +34323,73 @@
 			(project "speaker_amp2"
 				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 347.98 161.29 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdb9e4fb-680f-4a15-b096-3408ec0c84e6")
+		(property "Reference" "H1"
+			(at 350.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 350.52 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 347.98 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 347.98 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 347.98 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbd36c9c-0e57-44e3-b501-994bb901bde9")
+		)
+		(instances
+			(project ""
+				(path "/2f0da60f-7f2b-417d-9b6a-7955d19177ea"
+					(reference "H1")
 					(unit 1)
 				)
 			)
