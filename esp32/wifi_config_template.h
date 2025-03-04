@@ -1,0 +1,10 @@
+#ifndef WIFI_CONFIG_H
+#define WIFI_CONFIG_H
+
+#define MY_WIFI_SSID "YOUR_WIFI_SSID"
+#define MY_WIFI_PASSWORD "YOUR_WIFI_PASSWRD"
+#define HOST_IP HOST_IP
+#define UDP_PORT 12345
+
+#endif // WIFI_CONFIG_H
+
