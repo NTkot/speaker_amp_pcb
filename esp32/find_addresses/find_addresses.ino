@@ -66,3 +66,12 @@ void loop() {
   // Delay 5 seconds and repeat scan
   delay(5000);
 }
+
+/*
+  Connected to WiFi
+  Initialized I2C interface
+  Scanning for I2C devices...
+  Scanning for I2C devices...
+  I2C device found at address 0x2C
+  I2C device found at address 0x2D
+ */
