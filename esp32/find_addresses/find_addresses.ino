@@ -2,24 +2,26 @@
 #include <WiFiUdp.h>
 #include "Wire.h"
 
-#include "../esp_config.h"
-#include "../wifi_config.h"
+// I2C Pins
+#define I2C_SDA_PIN 21
+#define I2C_SCL_PIN 19
+#define I2C_FREQ 100000
 
 // Your WiFi credentials
-const char* ssid = MY_WIFI_SSID;
-const char* password = MY_WIFI_PASSWORD;
+#define WIFI_SSID "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWRD"
 
 // UDP settings
-const char* host = HOST_IP;  // Replace with your Ubuntu machine's IP address
-const int udpPort = 12345;   // The port number the server is listening on
+#define HOST_IP "YOUR_HOST_IP"
+#define UDP_PORT 12345
+
 
 // WiFI - UDP
 WiFiUDP udp;
 
-
 bool wifi_log(const char* msg) {
   bool status = true;
-  status &= udp.beginPacket(host, udpPort);
+  status &= udp.beginPacket(HOST_IP, UDP_PORT);
   udp.print(msg);
   status &= udp.endPacket();
   return status;
@@ -27,7 +29,7 @@ bool wifi_log(const char* msg) {
 
 void setup() {
   // Connect to WiFi
-  WiFi.begin(ssid, password);
+  WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
   while (WiFi.status() != WL_CONNECTED) {
     delay(1000);
   }
