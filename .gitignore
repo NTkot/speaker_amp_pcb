@@ -5,3 +5,4 @@ sym-lib-table
 ~*.lck
 esp32/wifi_config.h
 jlcpcb/
+.vscode
